@@ -1,463 +1,281 @@
-# Prompt Gamma - Tao slide De 6 Ung dung lam sang roi loan lipid mau ESC/EAS 2025
+# Prompt Gamma - Deck một case xuyên suốt cho Đề 6 rối loạn lipid máu
 
-## Cach dung
+## Cách dùng
 
-Copy toan bo prompt trong khoi ben duoi va dan vao Gamma. Neu Gamma hoi ve do dai, chon deck 16:9, 44 slides, academic/medical presentation, Vietnamese language.
+Copy toàn bộ prompt trong khối bên dưới và dán vào Gamma. Chọn deck 16:9, phong cách academic/clinical, ngôn ngữ tiếng Việt.
 
 ```text
-Tao mot bo slide thuyet trinh bang tieng Viet cho de tai giua ky:
+Tạo một bộ slide thuyết trình bằng tiếng Việt cho đề tài:
 
-"DE 6 - UNG DUNG LAM SANG: Tiep can benh nhan roi loan lipid mau theo ESC/EAS 2025"
+"Đề 6 - Ứng dụng lâm sàng: tiếp cận một bệnh nhân rối loạn lipid máu theo ESC/EAS 2025"
 
-Vai tro cua deck: Bai thuyet trinh hoc thuat - lam sang cho sinh vien/nghien cuu vien y khoa. Noi dung can chinh xac, logic, de trinh bay, uu tien quy trinh ra quyet dinh lam sang hon la mo ta ly thuyet dai dong.
+YÊU CẦU NỘI DUNG:
+- Dùng 1 case lâm sàng duy nhất xuyên suốt toàn bộ bài.
+- Không tạo case phụ.
+- Không gom case thành một cụm ở cuối; case phải đi xuyên suốt từng phần.
+- Phải trả lời rõ 3 yêu cầu:
+  1. Các bước tiếp cận.
+  2. Khi nào cần thuốc.
+  3. Theo dõi điều trị.
+- Phải có 1 flowchart từ khám -> điều trị -> theo dõi.
+- Phải có 1 case hoàn chỉnh.
+- Tạo tổng cộng 40 slide:
+  - 38 slide nội dung chính.
+  - 2 slide cuối là Component & Asset Library để lưu lại màu, badges, cards, icons, flow blocks.
 
-Yeu cau bat buoc:
-- Tao 44 slides tong cong.
-- Trong do co 40-42 slides noi dung chinh, 1 slide tai lieu tham khao, va 2 slides cuoi la "Component & Asset Library" de luu lai cac thanh phan thiet ke dung trong deck.
-- Co 1 case lam sang hoan chinh, tach rieng thanh dung 5 slides.
-- Co 1 flowchart tong ket tu kham -> danh gia -> dieu tri -> theo doi.
-- Co 3-5 take-home messages.
-- Ngon ngu: tieng Viet, dung thuat ngu y khoa chuan. Giu cac thuat ngu quoc te khi can: LDL-C, ASCVD, SCORE2, SCORE2-OP, PCSK9 inhibitor, ezetimibe, bempedoic acid, inclisiran, Lp(a), hs-CRP, CAC.
-- Moi slide chi nen co 1 thong diep chinh, khong nhoi qua nhieu chu.
-- Khong bien deck thanh tai lieu marketing. Phong cach can giong bai bao cao lam sang cua khoa Tim mach/Noi tiet.
+CASE CHÍNH DÙNG XUYÊN SUỐT:
+Bệnh nhân nữ 46 tuổi đến phòng khám tim mạch vì khám sức khỏe định kỳ phát hiện cholesterol rất cao. Chưa từng nhồi máu cơ tim, đột quỵ hoặc bệnh động mạch ngoại biên. Không hút thuốc. Huyết áp 128/78 mmHg. BMI 24.8 kg/m2. Không đái tháo đường đã biết. Cha bị nhồi máu cơ tim lúc 49 tuổi. Chị gái dùng thuốc hạ cholesterol từ tuổi 38. Có xanthelasma nhẹ, nghi dày gân Achilles. Không đau ngực, không khó thở khi gắng sức.
 
-LUU Y VE NOI DUNG GUIDELINE:
-- Trinh bay ro: ESC/EAS 2025 la "2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias", khong phai mot guideline hoan toan moi.
-- Muc tieu LDL-C nen dua tren nen tang guideline ESC/EAS 2019 va cac cap nhat 2025.
-- Neu de cap khuyen cao, ghi gon theo nguon ESC/EAS, khong tu tao khuyen cao moi.
-- Neu mot thong tin chua chac chan hoac phu thuoc boi canh, ghi la "can can nhac" thay vi "bat buoc".
+Xét nghiệm:
+- LDL-C 238 mg/dL.
+- Total cholesterol 318 mg/dL.
+- HDL-C 52 mg/dL.
+- Triglyceride 136 mg/dL.
+- HbA1c 5.6%.
+- eGFR 92 mL/phút/1.73 m2.
+- ALT/AST bình thường.
+- TSH bình thường.
+- Urine protein âm tính.
+- Lp(a) 72 mg/dL.
 
-STYLE TONG THE:
-- Ty le: 16:9.
-- Phong cach: clean clinical, academic cardiology, modern hospital dashboard, nhieu khoang trang, ro rang, de doc tren man hinh lop hoc.
-- Nen chu dao: trang hoac gan trang (#F7FAFC), co cac mang nen phu rat nhat.
-- Mau chu dao:
-  - Navy y khoa: #12324A
-  - Teal lam sang: #0E7C86
-  - Xanh la can thiep loi song: #2F855A
-  - Vang/cam canh bao nguy co: #D97706
-  - Do nguy co rat cao: #C2410C
-  - Xam chu/phu de: #475569
-  - Duong vien/bang: #CBD5E1
-- Tranh palette qua toi hoac qua ruc. Khong dung gradient tim/xanh tim lam mau chu dao.
-- Font: sans-serif hien dai, de doc. Tieu de dam, than bai gon. Khong dung font trang tri.
-- Icons: dung icon line-style y khoa va tim mach: heart, artery, lab tube, checklist, stethoscope, pill, syringe, calendar, chart line, warning triangle, target.
-- Dung minh hoa y khoa vector sach se, khong dung anh stock qua cam tinh.
-- Bo cuc uu tien:
-  - Slide khung ly thuyet: 2 cot hoac 3 cot.
-  - Slide quy trinh: timeline ngang hoac flowchart.
-  - Slide muc tieu LDL-C: bang mau theo nguy co.
-  - Slide case: giao dien "clinical chart" co o thong tin benh nhan, labs, assessment, plan.
-  - Slide tong ket: flowchart full-width, co mau phan tang nguy co.
-- Footer nho tren moi slide noi dung: "ESC/EAS 2025 Focused Update | De 6 - Ung dung lam sang".
-- Neu co citation tren slide, dat o goc duoi phai bang chu nho: "Source: ESC/EAS 2025 Focused Update" hoac "Source: ESC/EAS 2019/2025".
+Vấn đề chính:
+- LDL-C rất cao.
+- Tiền sử gia đình ASCVD sớm.
+- Dấu hiệu gợi ý familial hypercholesterolemia, viết là "nghi FH" hoặc "probable FH", không khẳng định chắc chắn.
+- Lp(a) tăng là risk enhancer.
+- Không nên xem bệnh nhân là nguy cơ thấp chỉ vì chưa có triệu chứng.
+- Cần điều trị thuốc sớm song song với thay đổi lối sống.
 
-COMPONENT SYSTEM CAN DUNG XUYEN SUOT:
-- Risk badges:
-  - Thap: xanh la nhat, text #2F855A
-  - Trung binh: xanh teal nhat, text #0E7C86
-  - Cao: cam nhat, text #D97706
-  - Rat cao: do nhat, text #C2410C
-- Decision nodes: hinh thoi hoac o bo vien dam, mau navy/teal.
-- Action blocks: hinh chu nhat bo goc nhe, nen trang, vien #CBD5E1, icon ben trai.
-- Drug cards: statin, ezetimibe, bempedoic acid, PCSK9 inhibitor, inclisiran.
-- Lab chips: LDL-C, HDL-C, TG, HbA1c, eGFR, ALT/AST.
-- Clinical chart cards: Patient, Risk, Target, Treatment, Follow-up.
-- Status chips: "Dat muc tieu", "Chua dat muc tieu", "Can tang cuong", "Theo doi dinh ky".
+LƯU Ý GUIDELINE:
+- Trình bày rõ ESC/EAS 2025 là "2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias".
+- ESC/EAS 2019 là nền tảng cho phân tầng nguy cơ, mục tiêu LDL-C và điều trị bậc thang.
+- ESC/EAS 2025 cập nhật các điểm về SCORE2/SCORE2-OP, Lp(a), bempedoic acid và liệu pháp không statin.
+- Mục tiêu LDL-C:
+  - Nguy cơ thấp: <116 mg/dL.
+  - Nguy cơ trung bình: <100 mg/dL.
+  - Nguy cơ cao: <70 mg/dL và giảm >=50% so với ban đầu.
+  - Nguy cơ rất cao: <55 mg/dL và giảm >=50% so với ban đầu.
+- Với case này, mục tiêu minh họa chính là LDL-C <70 mg/dL và giảm >=50%. Nếu phát hiện ASCVD dưới lâm sàng rõ hoặc tiêu chí rất cao khác, cân nhắc <55 mg/dL.
 
-DECK STRUCTURE VA NOI DUNG TUNG SLIDE:
+STYLE:
+- Tỷ lệ 16:9.
+- Phong cách: clean clinical, academic cardiology, hiện đại, dễ đọc.
+- Nền chính: #F7FAFC hoặc trắng.
+- Màu chủ đạo:
+  - Navy: #12324A.
+  - Teal: #0E7C86.
+  - Green: #2F855A.
+  - Orange: #D97706.
+  - Red: #C2410C.
+  - Gray text: #475569.
+  - Border: #CBD5E1.
+- Không dùng gradient tím/xanh tím làm chủ đạo.
+- Dùng icon line-style: heart, artery, lab tube, checklist, stethoscope, pill, syringe, calendar, chart line, warning triangle, target.
+- Mỗi slide chỉ có 1 thông điệp chính.
+- Dùng "patient snapshot" nhỏ ở các slide chính để người nghe luôn nhớ case.
+- Footer nhỏ: "ESC/EAS 2025 Focused Update | Đề 6 - Ứng dụng lâm sàng".
+
+SLIDE STRUCTURE:
 
 Slide 1 - Title
-Title: De 6 - Ung dung lam sang
-Subtitle: Tiep can benh nhan roi loan lipid mau theo ESC/EAS 2025
-Layout: hero clinical, nen sang, hinh minh hoa tim mach/atherosclerosis nhe ben phai, tieu de lon ben trai.
-Footer: Ten nhom/lop/mon hoc neu can.
+Tiêu đề: Đề 6 - Ứng dụng lâm sàng
+Phụ đề: Tiếp cận một bệnh nhân rối loạn lipid máu theo ESC/EAS 2025
+Layout: hero clinical, hình minh họa tim mạch/LDL/atherosclerosis nhẹ.
 
-Slide 2 - Muc tieu bai trinh bay
-Noi dung:
-- Nam duoc cac buoc tiep can benh nhan roi loan lipid mau.
-- Xac dinh khi nao can dung thuoc.
-- Theo doi va tang cuong dieu tri de dat muc tieu LDL-C.
-Layout: 3 objective cards co icon.
+Slide 2 - Case mở đầu
+Nội dung: nữ 46 tuổi, LDL-C 238 mg/dL, cha NMCT lúc 49 tuổi, chị gái dùng thuốc lipid sớm.
+Layout: patient chart card.
 
-Slide 3 - Vi sao chu de nay quan trong?
-Noi dung:
-- Roi loan lipid mau la yeu to nguy co co the can thiep.
-- LDL-C co vai tro nhan qua trong xo vua dong mach.
-- Dieu tri dung muc tieu giup giam bien co tim mach dai han.
-Layout: left text, right simple artery plaque visual.
+Slide 3 - Ba câu hỏi cần trả lời
+1. Tiếp cận bệnh nhân thế nào?
+2. Khi nào cần thuốc?
+3. Theo dõi điều trị ra sao?
+Layout: 3 cards.
 
-Slide 4 - Guideline nao dang duoc dung?
-Noi dung:
-- ESC/EAS 2025 la ban cap nhat tap trung cua guideline 2019.
-- Cap nhat cac diem moi ve nguy co, Lp(a), ACS, bempedoic acid va phoi hop dieu tri.
-- Muc tieu LDL-C van dua tren phan tang nguy co.
-Layout: timeline 2019 -> 2025 Focused Update.
+Slide 4 - Hành trình xử trí
+Khám -> xét nghiệm -> loại trừ nguyên nhân thứ phát -> phân tầng nguy cơ -> đặt mục tiêu LDL-C -> điều trị -> theo dõi.
+Layout: horizontal journey map.
 
-Slide 5 - Khung tu duy 3 buoc
-Noi dung:
-1. Danh gia nguy co tim mach.
-2. Dat muc tieu LDL-C theo nguy co.
-3. Dieu tri bac thang va theo doi den khi dat muc tieu.
-Layout: 3-step horizontal process.
+Slide 5 - Hỏi bệnh có mục tiêu
+ASCVD, yếu tố nguy cơ, tiền sử gia đình, thuốc đang dùng, lối sống.
+Layout: checklist.
 
-Slide 6 - Benh nhan nao can danh gia lipid mau?
-Noi dung:
-- Kiem tra suc khoe co yeu to nguy co.
-- Tang huyet ap, dai thao duong, CKD, beo phi, hut thuoc.
-- Tien su gia dinh ASCVD som hoac nghi FH.
-- Da co ASCVD: NMCT, dot quy, PAD, benh mach vanh.
-Layout: checklist 2 cot.
+Slide 6 - Áp vào case: dữ kiện hỏi bệnh
+Cha NMCT lúc 49 tuổi, chị gái dùng thuốc lipid từ 38 tuổi, không hút thuốc, chưa có ASCVD rõ.
+Layout: case update card.
 
-Slide 7 - Khai thac benh su co muc tieu
-Noi dung:
-- ASCVD da biet: mach vanh, dot quy/TIA, PAD.
-- Yeu to nguy co: tuoi, gioi, hut thuoc, HA, DM, CKD.
-- Tien su gia dinh: ASCVD som, LDL-C rat cao.
-- Thuoc dang dung va thoi quen: ruou, an uong, van dong.
-Layout: clinical interview card.
+Slide 7 - Khám lâm sàng
+HA, BMI, vòng bụng nếu có, xanthelasma, gân Achilles, dấu hiệu PAD.
+Layout: clinical exam icons.
 
-Slide 8 - Kham lam sang can tap trung vao gi?
-Noi dung:
-- Huyet ap, BMI, vong bung.
-- Dau hieu khang insulin/beo phi.
-- Xanthoma, xanthelasma, arcus cornealis som neu nghi FH.
-- Dau hieu benh mach ngoai bien khi phu hop.
-Layout: body/clinic assessment icons.
+Slide 8 - Red flag: nghi FH
+LDL-C rất cao + tiền sử gia đình ASCVD sớm + xanthelasma/nghi dày gân Achilles.
+Layout: warning/red flag panel.
 
-Slide 9 - Bo xet nghiem ban dau
-Noi dung:
-- Lipid profile: TC, LDL-C, HDL-C, TG, non-HDL-C neu can.
-- HbA1c/glucose, creatinine/eGFR.
-- ALT/AST truoc khi khoi tri statin.
-- TSH khi nghi suy giap; urine protein neu nghi hoi chung than hu.
-Layout: lab panel with chips.
+Slide 9 - Xét nghiệm ban đầu
+Lipid profile, HbA1c/glucose, eGFR, ALT/AST, TSH khi cần, urine protein, Lp(a).
+Layout: lab chips.
 
-Slide 10 - Tim nguyen nhan thu phat
-Noi dung:
-- Suy giap, benh than, benh gan mat.
-- Dai thao duong chua kiem soat, beo phi, ruou.
-- Thuoc: corticosteroid, thiazide, beta-blocker chon loc cu, retinoid, antiretroviral...
-- Xu tri nguyen nhan thu phat song song voi giam LDL-C.
-Layout: cause map, central "Secondary dyslipidemia".
+Slide 10 - Loại trừ nguyên nhân thứ phát
+Suy giáp, CKD/hội chứng thận hư, bệnh gan mật, thuốc, rượu, đái tháo đường chưa kiểm soát.
+Layout: cause map.
 
-Slide 11 - Nhom can xu tri som
-Noi dung:
-- ASCVD ro rang.
-- LDL-C rat cao hoac nghi familial hypercholesterolemia.
-- Dai thao duong co yeu to nguy co/ton thuong co quan dich.
-- CKD.
-- Nguy co cao/rat cao theo SCORE2/SCORE2-OP.
-Layout: red/orange priority panel.
+Slide 11 - Áp vào case: xét nghiệm thứ phát
+TSH bình thường, eGFR 92, urine protein âm tính, ALT/AST bình thường.
+Thông điệp: ít gợi ý nguyên nhân thứ phát rõ.
+Layout: lab dashboard.
 
-Slide 12 - Yeu to tinh chinh nguy co
-Noi dung:
-- Lp(a) >50 mg/dL, xap xi 105 nmol/L: risk enhancer.
-- hs-CRP co the ho tro nhan dien viem/nguy co.
-- CAC score co the giup tinh chinh quyet dinh o ca trung gian.
-- Dung de tinh chinh, khong thay the danh gia lam sang tong the.
-Layout: 3 cards Lp(a), hs-CRP, CAC.
+Slide 12 - Vai trò Lp(a)
+Lp(a) 72 mg/dL là risk enhancer; giúp tinh chỉnh nguy cơ.
+Layout: biomarker card.
 
-Slide 13 - Phan tang nguy co: nguyen tac
-Noi dung:
-- Khong quyet dinh chi dua vao mot con so LDL-C.
-- Xem tong the: ASCVD, DM, CKD, FH, SCORE2/SCORE2-OP, risk enhancers.
-- Nguy co cang cao, muc tieu LDL-C cang thap va can dieu tri cang som.
-Layout: risk pyramid.
+Slide 13 - SCORE2/SCORE2-OP dùng khi nào?
+Dùng cho đánh giá nguy cơ ở người phù hợp, chưa có ASCVD rõ và không thuộc nhóm đặc biệt.
+Layout: split SCORE2/SCORE2-OP.
 
-Slide 14 - SCORE2 va SCORE2-OP
-Noi dung:
-- SCORE2: uoc tinh nguy co bien co tim mach 10 nam cho nguoi trung nien.
-- SCORE2-OP: dung cho nguoi lon tuoi.
-- Khong dung nhu cong cu duy nhat cho nguoi da co ASCVD, DM/CKD ro, FH hoac LDL-C rat cao.
-Layout: split cards SCORE2 / SCORE2-OP.
+Slide 14 - Khi nào SCORE2 không đủ?
+ASCVD, DM, CKD, LDL-C rất cao, nghi FH.
+Áp vào case: LDL-C 238 + nghi FH nên không chỉ dựa vào SCORE2.
+Layout: decision warning.
 
-Slide 15 - Bang nhom nguy co
-Noi dung bang:
-Cot 1: Nhom nguy co.
-Cot 2: Goi y dac diem.
-Hang:
-- Thap: it yeu to nguy co, SCORE2 thap.
-- Trung binh: nguy co trung gian, can can nhac boi canh.
-- Cao: nhieu yeu to nguy co, DM/CKD/FH hoac SCORE2 cao tuy tieu chi.
-- Rat cao: ASCVD ro, nguy co rat cao, nhieu yeu to nang.
-Layout: table with risk badges.
+Slide 15 - Phân tầng nguy cơ trong case
+Ít nhất nguy cơ cao; cân nhắc rất cao nếu có ASCVD dưới lâm sàng hoặc tiêu chí bổ sung.
+Layout: risk ladder.
 
-Slide 16 - Muc tieu LDL-C theo nguy co
-Noi dung bang:
-- Thap: LDL-C <116 mg/dL.
-- Trung binh: LDL-C <100 mg/dL.
-- Cao: LDL-C <70 mg/dL va giam >=50% so voi ban dau.
-- Rat cao: LDL-C <55 mg/dL va giam >=50% so voi ban dau.
-Layout: target board, moi muc co icon target.
+Slide 16 - Mục tiêu LDL-C theo nguy cơ
+Bảng 4 mức: thấp, trung bình, cao, rất cao.
+Layout: target table with color badges.
 
-Slide 17 - Cung LDL-C, khac nguy co, khac xu tri
-Noi dung:
-Vi du A: LDL-C 150 mg/dL, 35 tuoi, it nguy co -> uu tien loi song + theo doi.
-Vi du B: LDL-C 150 mg/dL, 62 tuoi, DM, THA, hut thuoc -> can thuoc som.
-Thong diep: Risk context quyet dinh muc tieu va cuong do dieu tri.
-Layout: two-patient comparison.
+Slide 17 - Áp mục tiêu vào case
+LDL-C 238 mg/dL -> mục tiêu <70 mg/dL và giảm >=50%.
+Nếu rất cao: <55 mg/dL và giảm >=50%.
+Layout: before/target gauge.
 
-Slide 18 - Cac tinh huong tang muc uu tien dieu tri
-Noi dung:
-- ASCVD hoac ACS gan day.
-- LDL-C rat cao/nghi FH.
-- Lp(a) cao.
-- DM, CKD, hut thuoc, THA khong kiem soat.
-- CAC cao neu duoc do.
-Layout: warning list with severity scale.
+Slide 18 - Khoảng cách điều trị
+Từ 238 xuống <70 cần giảm rất sâu; statin đơn độc có thể chưa đủ.
+Layout: LDL drop visual.
 
-Slide 19 - Loi song: nen tang cho moi benh nhan
-Noi dung:
-- Giam saturated/trans fat, tang rau, chat xo, hat, ca.
-- Giam can neu thua can/beo phi.
-- Van dong aerobic + khang luc phu hop.
-- Ngung hut thuoc, giam ruou.
-- Kiem soat HA, glucose, ngu va stress.
-Layout: lifestyle wheel, green theme.
+Slide 19 - Kết luận sau đánh giá
+Không phải case "cholesterol cao đơn thuần"; đây là bệnh nhân LDL-C rất cao, nghi FH, cần điều trị sớm.
+Layout: clinical assessment card.
 
-Slide 20 - Khi nao can thuoc?
-Noi dung:
-Can thuoc som neu:
-- ASCVD hoac nguy co rat cao/cao.
-- LDL-C cao xa muc tieu.
-- DM/CKD/FH hoac risk enhancers manh.
-- Khong dat muc tieu sau can thiep loi song.
-Co the theo doi loi song truoc neu:
-- Nguy co thap/trung binh va LDL-C gan muc tieu.
-Layout: decision split "Start drug now" vs "Lifestyle + reassess".
+Slide 20 - Lối sống cho tất cả bệnh nhân
+Giảm saturated/trans fat, tăng chất xơ, vận động, duy trì cân nặng, không hút thuốc.
+Layout: lifestyle wheel.
 
-Slide 21 - Statin: nen tang dieu tri
-Noi dung:
-- Uu tien statin cuong do phu hop, toi da dung nap.
-- Ky vong giam LDL-C phu thuoc loai va lieu.
-- Can danh gia tuong tac, benh gan tien trien, thai ky, trieu chung co.
-- Neu khong dung nap: thu lai lieu thap/doi statin/cach ngay neu phu hop.
-Layout: drug card + mechanism simple.
+Slide 21 - Khi nào cần thuốc?
+Cần thuốc sớm khi ASCVD, nguy cơ cao/rất cao, LDL-C rất cao, nghi FH, DM/CKD nguy cơ cao hoặc chưa đạt mục tiêu.
+Layout: decision split.
 
-Slide 22 - Ezetimibe: buoc tang cuong dau tien
-Noi dung:
-- Them khi statin toi da dung nap chua dat muc tieu.
-- Co the phoi hop som neu du kien statin don doc khong du.
-- Dung duoc trong nhieu tinh huong can giam LDL-C them nhung can tranh qua phuc tap.
-Layout: add-on therapy diagram: Statin + Ezetimibe.
+Slide 22 - Vì sao case này cần thuốc ngay?
+LDL-C 238, tiền sử gia đình ASCVD sớm, nghi FH, Lp(a) tăng; không chờ lối sống đơn thuần.
+Layout: case decision card.
 
-Slide 23 - Bempedoic acid: diem cap nhat 2025
-Noi dung:
-- Giam LDL-C khoang 20-25%.
-- Vai tro noi bat o benh nhan khong dung nap statin de dat muc tieu LDL-C.
-- Co the can nhac them vao statin toi da dung nap co/khong co ezetimibe o nguy co cao/rat cao.
-- Can trinh bay la lua chon tang cuong tuy boi canh va kha dung.
-Layout: "2025 update" callout card.
+Slide 23 - Statin là nền tảng
+Khởi statin cường độ cao hoặc tối đa dung nạp nếu không chống chỉ định.
+Layout: drug card.
 
-Slide 24 - PCSK9 inhibitor va inclisiran
-Noi dung:
-- PCSK9 monoclonal antibodies: hieu qua giam LDL-C manh, khoang 60%.
-- Phu hop khi nguy co rat cao va chua dat muc tieu sau statin + ezetimibe, hoac can giam LDL-C lon.
-- Inclisiran: giam LDL-C khoang 50%, tiem dinh ky, co loi ve tuan thu; can can nhac theo chi dinh/kha dung.
+Slide 24 - Giải thích cho bệnh nhân
+Dùng thuốc để giảm phơi nhiễm LDL-C dài hạn và giảm nguy cơ biến cố, không phải vì đang có triệu chứng.
+Layout: clinician-patient communication.
+
+Slide 25 - Ezetimibe
+Thêm khi statin chưa đạt mục tiêu hoặc dự kiến khó đạt mục tiêu.
+Layout: add-on therapy diagram.
+
+Slide 26 - Bempedoic acid
+Điểm cập nhật 2025; cân nhắc khi không dung nạp statin hoặc cần tăng cường không statin.
+Layout: 2025 update callout.
+
+Slide 27 - PCSK9 inhibitor và inclisiran
+PCSK9 inhibitor giảm LDL-C mạnh; inclisiran tiêm định kỳ, có lợi về tuân thủ tùy khả dụng.
 Layout: injectable therapies comparison.
 
-Slide 25 - Tang triglyceride: khong bo qua
-Noi dung:
-- TG tang nhe-vua: xu tri loi song, can nang, duong huyet, ruou, thuoc.
-- TG rat cao: uu tien phong viem tuy cap.
-- Trong bai nay, LDL-C van la muc tieu chinh cua chien luoc giam nguy co ASCVD.
-Layout: TG meter with thresholds but avoid over-specific unsupported numbers unless sourced.
+Slide 28 - Quyết định điều trị ban đầu
+Lối sống + statin cường độ cao/tối đa dung nạp; hẹn kiểm tra LDL-C sau 4-12 tuần; tư vấn sàng lọc người thân.
+Layout: treatment plan card.
 
-Slide 26 - ACS: can chien luoc tich cuc som
-Noi dung:
-- Hoi chung vanh cap la tinh huong nguy co rat cao.
-- Can tang cuong dieu tri lipid som trong thoi gian nam vien.
-- Co the khoi tri statin cuong do cao + ezetimibe neu du kien statin don doc khong dat muc tieu.
-Layout: hospital timeline admission -> discharge -> follow-up.
-
-Slide 27 - Khong dung nap statin: tiep can thuc te
-Noi dung:
-- Xac nhan trieu chung, thoi diem, CK neu can.
-- Loai tru nguyen nhan khac: suy giap, van dong qua muc, tuong tac thuoc.
-- Thu lai lieu thap/doi statin/lich dung khac neu phu hop.
-- Neu that su khong dung nap: ezetimibe, bempedoic acid, PCSK9-based therapy tuy nguy co.
-Layout: troubleshooting flow.
-
-Slide 28 - Lich theo doi sau khoi tri/chinh lieu
-Noi dung:
-- Kiem tra lipid sau 4-12 tuan.
-- Danh gia tuan thu, tac dung phu, thay doi loi song.
-- Sau khi on dinh: theo doi dinh ky theo nguy co va thuc hanh dia phuong.
+Slide 29 - Theo dõi sau khởi trị
+Kiểm tra lipid sau 4-12 tuần; hỏi tuân thủ, tác dụng phụ, tương tác thuốc, thay đổi lối sống.
 Layout: calendar timeline.
 
-Slide 29 - Danh gia hieu qua
-Noi dung:
-- So sanh LDL-C hien tai voi muc tieu theo nguy co.
-- Tinh % giam so voi ban dau neu co.
-- Neu dat: duy tri, cung co tuan thu.
-- Neu chua dat: tim nguyen nhan va tang cuong dieu tri.
-Layout: before/after LDL-C gauge.
+Slide 30 - Kịch bản sau 8 tuần
+LDL-C giảm từ 238 xuống 118 mg/dL.
+Thông điệp: giảm rõ nhưng chưa đạt <70 mg/dL.
+Layout: before/after gauge.
 
-Slide 30 - Danh gia an toan
-Noi dung:
-- Hoi dau co/yeu co, trieu chung gan mat.
-- Xem lai ALT/AST khi co chi dinh/triệu chung hoac theo thuc hanh.
-- Kiem tra tuong tac thuoc.
-- Luu y phu nu co thai/du dinh co thai.
-Layout: safety checklist.
+Slide 31 - Trước khi tăng thuốc cần kiểm tra gì?
+Tuân thủ, cách dùng, đau cơ/tác dụng phụ, tương tác, nguyên nhân thứ phát, chi phí/khả năng tiếp cận.
+Layout: checklist.
 
-Slide 31 - Neu chua dat muc tieu: lam gi?
-Noi dung:
-Thu tu:
-1. Kiem tra tuan thu va cach dung.
-2. Loai tru/tim nguyen nhan thu phat.
-3. Toi uu statin toi da dung nap.
-4. Them ezetimibe.
-5. Can nhac bempedoic acid/PCSK9 inhibitor/inclisiran theo nguy co, muc LDL-C con lai va kha dung.
-Layout: escalation ladder.
+Slide 32 - Quyết định thêm ezetimibe
+Vì LDL-C vẫn chưa đạt mục tiêu dù đã giảm.
+Layout: escalation step.
 
-Slide 32 - Theo doi dai han
-Noi dung:
-- Dieu tri lipid la chien luoc dai han.
-- Tai danh gia nguy co khi co bien co moi, thay doi benh nen, tuoi, DM/CKD.
-- Giao duc benh nhan: muc tieu LDL-C, tuan thu, loi song.
-- Phoi hop kiem soat HA, glucose, can nang, hut thuoc.
+Slide 33 - Kịch bản tiếp theo
+Sau statin + ezetimibe, LDL-C còn 82 mg/dL, vẫn chưa đạt <70 mg/dL.
+Layout: follow-up dashboard.
+
+Slide 34 - Tăng cường bước tiếp
+Cân nhắc PCSK9 inhibitor, bempedoic acid hoặc inclisiran tùy nguy cơ, dung nạp, chi phí, khả dụng; chuyển chuyên khoa lipid nếu cần.
+Layout: decision node.
+
+Slide 35 - Theo dõi dài hạn
+Duy trì điều trị, kiểm tra định kỳ, củng cố tuân thủ, sàng lọc người thân bậc một nếu nghi FH.
 Layout: long-term care loop.
 
-Slide 33 - Khi nao can chuyen chuyen khoa?
-Noi dung:
-- Nghi familial hypercholesterolemia.
-- LDL-C rat cao hoac khong dat muc tieu du da phoi hop.
-- Khong dung nap statin phuc tap.
-- ASCVD tai phat/nguy co rat cao can lieu phap tiem.
-- TG rat cao hoac roi loan lipid hon hop phuc tap.
-Layout: referral triggers.
+Slide 36 - Flowchart tổng kết
+Tạo flowchart full slide:
+Bệnh nhân LDL-C cao -> hỏi bệnh/khám -> xét nghiệm -> nguyên nhân thứ phát? -> LDL-C rất cao/nghi FH? -> phân tầng nguy cơ -> mục tiêu LDL-C -> lối sống -> thuốc? -> statin -> theo dõi 4-12 tuần -> đạt mục tiêu? -> thêm ezetimibe -> PCSK9/bempedoic acid/inclisiran nếu cần.
+Layout: full-width algorithm, rõ mũi tên.
 
-CASE LAM SANG - 5 SLIDES RIENG:
+Slide 37 - Take-home messages
+1. Bắt đầu từ bệnh nhân cụ thể, không chỉ nhìn LDL-C đơn lẻ.
+2. LDL-C rất cao + tiền sử gia đình ASCVD sớm là red flag của FH.
+3. Lối sống cho tất cả, nhưng nguy cơ cao/LDL-C rất cao cần thuốc sớm.
+4. Điều trị theo mục tiêu: statin -> ezetimibe -> liệu pháp tăng cường.
+5. Theo dõi cần đánh giá mục tiêu, tuân thủ, an toàn và nguy cơ gia đình.
+Layout: 5 numbered cards.
 
-Slide 34 - Case 1: Benh canh ban dau
-Title: Case lam sang: phat hien LDL-C cao khi kiem tra suc khoe
-Noi dung:
-- Nam 58 tuoi.
-- Hut thuoc 20 goi-nam.
-- Tang huyet ap, dai thao duong type 2 trong 6 nam.
-- BMI 28 kg/m2.
-- Chua ghi nhan NMCT/dot quy/PAD.
-Layout: patient chart card, silhouette, risk badges.
+Slide 38 - Tài liệu tham khảo
+1. ESC/EAS 2025 Focused Update of the 2019 Guidelines.
+2. European Heart Journal guideline/update article.
+3. European Atherosclerosis Society summary.
+4. ESC official slide set 2025.
+5. ACC Ten Points to Remember for ESC/EAS 2019.
+Layout: clean bibliography.
 
-Slide 35 - Case 2: Xet nghiem va du lieu lam sang
-Noi dung lab:
-- HA 145/90 mmHg.
-- LDL-C 172 mg/dL.
-- HDL-C 38 mg/dL.
-- TG 210 mg/dL.
-- HbA1c 7.8%.
-- eGFR 72 mL/phut/1.73 m2.
-- ALT/AST binh thuong.
-- Khong dau co nen, khong benh gan tien trien.
-Layout: lab dashboard with chips and abnormal highlights.
+Slide 39 - Component Library
+Mục đích: lưu component để tái sử dụng.
+Bao gồm:
+- Color palette: #12324A, #0E7C86, #2F855A, #D97706, #C2410C, #475569, #CBD5E1, #F7FAFC.
+- Risk badges: Thấp, Trung bình, Cao, Rất cao.
+- Lab chips: LDL-C, HDL-C, TG, HbA1c, eGFR, ALT/AST, TSH, Lp(a).
+- Drug cards: Statin, Ezetimibe, Bempedoic acid, PCSK9 inhibitor, Inclisiran.
+- Icon set.
+Layout: design system board.
 
-Slide 36 - Case 3: Phan tang nguy co va muc tieu
-Noi dung:
-- Nhieu yeu to nguy co: nam, tuoi 58, hut thuoc, THA, DM, LDL-C cao.
-- Can xep it nhat nguy co cao; xem xet rat cao tuy tieu chi chi tiet/ton thuong co quan dich/SCORE2.
-- Muc tieu minh hoa: LDL-C <70 mg/dL va giam >=50%; neu rat cao thi <55 mg/dL va giam >=50%.
-Layout: risk assessment board, target card.
+Slide 40 - Asset Library
+Mục đích: lưu layout/asset để copy.
+Bao gồm:
+- Patient snapshot card.
+- Decision node.
+- Action block.
+- Escalation ladder.
+- Follow-up dashboard.
+- Flowchart blocks.
+- Footer/citation style.
+Layout: component canvas.
 
-Slide 37 - Case 4: Dieu tri ban dau
-Noi dung:
-- Loi song: ngung hut thuoc, an giam mo bao hoa/trans fat, tang chat xo, van dong, giam can.
-- Kiem soat HA va glucose song song.
-- Khoi tri statin cuong do cao neu khong chong chi dinh.
-- Hen kiem tra lipid sau 4-12 tuan.
-Layout: treatment prescription card + lifestyle icons.
-
-Slide 38 - Case 5: Theo doi va tang cuong
-Noi dung:
-Gia dinh sau 8 tuan LDL-C con 92 mg/dL:
-- Da giam nhung chua dat muc tieu.
-- Kiem tra tuan thu va tac dung phu.
-- Them ezetimibe.
-- Neu sau do van chua dat, can nhac PCSK9 inhibitor hoac bempedoic acid tuy nguy co/kha dung/dung nap.
-Layout: follow-up timeline and escalation ladder.
-
-TONG KET:
-
-Slide 39 - Flowchart tong ket: Tu kham den dieu tri
-Noi dung flowchart full slide:
-Benh nhan den kham/phat hien lipid cao
--> Khai thac benh su, yeu to nguy co, thuoc dang dung
--> Kham lam sang va xet nghiem lipid, HbA1c, eGFR, men gan, TSH khi can
--> Co ASCVD/DM/CKD/FH/LDL-C rat cao?
-   -> Co: xep nguy co cao/rat cao
-   -> Khong: tinh SCORE2/SCORE2-OP neu phu hop
--> Dat muc tieu LDL-C theo nguy co
--> Loi song cho tat ca
--> Can thuoc ngay?
-   -> Co: statin toi da dung nap
-   -> Chua can: loi song + tai danh gia
--> Kiem tra LDL-C sau 4-12 tuan
--> Dat muc tieu?
-   -> Co: duy tri, theo doi dinh ky
-   -> Khong: kiem tra tuan thu/nguyen nhan thu phat -> toi uu statin -> ezetimibe -> PCSK9/bempedoic acid/inclisiran tuy boi canh
-Layout: full-width algorithm, dung mau risk badges, cac node ro rang.
-
-Slide 40 - Bang tong ket thuoc va vi tri su dung
-Noi dung bang:
-Cot: Nhom thuoc | Vai tro | Khi dung | Luu y.
-Hang:
-- Statin | Nen tang | Can giam LDL-C theo nguy co | Toi da dung nap.
-- Ezetimibe | Tang cuong dau tien | Chua dat muc tieu voi statin | Co the phoi hop som.
-- Bempedoic acid | Non-statin cap nhat 2025 | Khong dung nap statin/can tang cuong | Giam LDL-C khoang 20-25%.
-- PCSK9 inhibitor | Giam LDL-C manh | Nguy co rat cao/chua dat muc tieu | Giam khoang 60%.
-- Inclisiran | Tiem dinh ky | Can cai thien tuan thu/can giam LDL-C them | Giam khoang 50%, tuy kha dung.
-Layout: clean comparison table.
-
-Slide 41 - Take-home messages
-Noi dung:
-1. Xu tri roi loan lipid mau dua tren nguy co tim mach tong the, khong chi dua vao LDL-C don le.
-2. LDL-C la muc tieu dieu tri chinh; nguy co cang cao thi muc tieu cang thap.
-3. Loi song ap dung cho tat ca, nhung nguy co cao/rat cao thuong can thuoc som.
-4. Dieu tri theo bac thang: statin -> ezetimibe -> bempedoic acid/PCSK9-based therapy khi can.
-5. Theo doi phai danh gia dong thoi: dat muc tieu, an toan, tuan thu va nhu cau tang cuong.
-Layout: 5 numbered cards, high contrast.
-
-Slide 42 - Tai lieu tham khao
-Noi dung:
-1. European Society of Cardiology. 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias.
-2. Mach F, et al. 2025 Focused Update of the 2019 ESC/EAS Guidelines. European Heart Journal.
-3. European Atherosclerosis Society. What is new in the updated ESC/EAS Dyslipidaemia Guidelines?
-4. ESC official slide set: 2025 Focused Update Dyslipidaemias.
-5. ACC. 2019 ESC/EAS Guidelines for Management of Dyslipidemias: Ten Points to Remember.
-Layout: bibliography clean, small text, no clutter.
-
-COMPONENT & ASSET LIBRARY - BAT BUOC TAO 2 SLIDES CUOI:
-
-Slide 43 - Component Library: colors, badges, cards, icons
-Muc dich: Slide nay khong phai noi dung thuyet trinh, ma la noi luu cac component de nguoi dung tai su dung/chinh sua.
-Noi dung can tao:
-- Color palette voi ma mau: #12324A, #0E7C86, #2F855A, #D97706, #C2410C, #475569, #CBD5E1, #F7FAFC.
-- 4 risk badges: Thap, Trung binh, Cao, Rat cao.
-- 5 drug cards mau mau: Statin, Ezetimibe, Bempedoic acid, PCSK9 inhibitor, Inclisiran.
-- 6 lab chips: LDL-C, HDL-C, TG, HbA1c, eGFR, ALT/AST.
-- Icon set line-style: heart, artery/plaque, lab tube, target, pill, syringe, calendar, chart line, warning, checklist.
-Layout: design system board, grid gon gang, co label "Reusable components".
-
-Slide 44 - Asset Library: flow blocks, clinical chart, tables
-Muc dich: Slide nay luu cac assets/bo cuc co the copy sang cac slide khac.
-Noi dung can tao:
-- Mau decision node: "Dat muc tieu LDL-C?"
-- Mau action block: "Them ezetimibe"
-- Mau escalation ladder 5 bac.
-- Mau clinical chart card voi 5 muc: Patient, Labs, Risk, Target, Plan.
-- Mau table header va row style cho bang muc tieu LDL-C.
-- Mau footer/citation nho.
-Layout: component canvas, moi asset dat trong mot khung rieng, de copy/paste.
-
-QUALITY CHECK TRUOC KHI XUAT:
-- Tong so slide phai la 44.
-- Slides 34-38 phai la case lam sang dung 5 slide rieng.
-- Slide 39 phai la flowchart tong ket tu kham den dieu tri va theo doi.
-- Slides 43-44 phai la component/assets library, khong duoc bo qua.
-- Khong slide nao qua day chu. Uu tien bang, flowchart, card, icon.
-- Dung nhat quan mau nguy co: thap xanh la, trung binh teal, cao cam, rat cao do.
-- Ghi ro "2025 Focused Update of the 2019 ESC/EAS Guidelines" it nhat mot lan trong phan dau.
-- Khong dua ra chan doan/dieu tri ca nhan hoa ngoai boi canh case minh hoa.
+QUALITY CHECK:
+- Tổng số slide là 40.
+- Chỉ dùng 1 case chính xuyên suốt.
+- Không có case phụ.
+- Case được duy trì xuyên suốt từng phần.
+- Có flowchart từ khám -> điều trị -> theo dõi.
+- Có phần khi nào cần thuốc.
+- Có phần theo dõi điều trị.
+- Có 3-5 take-home messages.
+- Slides 39-40 là component/assets library.
+- Không slide nào quá nhiều chữ.
 ```
-

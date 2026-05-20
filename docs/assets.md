@@ -15,6 +15,8 @@ File này dùng để lưu các tài nguyên quan trọng của dự án: link t
 | `docs/de6_ung_dung_lam_sang_ke_hoach.md` | Plan nội dung, hướng tiếp cận case-first và cấu trúc slide |
 | `docs/gamma_prompt_de6_slide.md` | Prompt dùng để tạo slide bằng Gamma |
 | `docs/phan_cong_task_nhom_2_nguoi.md` | Phân công công việc cho HiimDM và Hoàng Nam |
+| `docs/slide_content_outline_de6.md` | Outline chi tiết nội dung từng slide |
+| `docs/slide4_hanh_trinh_xu_tri_flowchart.puml` | PlantUML flowchart cho slide 4 |
 
 ## 3. Repository Links
 

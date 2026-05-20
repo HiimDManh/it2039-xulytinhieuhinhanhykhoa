@@ -1,0 +1,64 @@
+@startuml
+title Slide 4 - Hanh trinh xu tri benh nhan roi loan lipid mau
+
+skinparam backgroundColor #F7FAFC
+skinparam shadowing false
+skinparam roundcorner 14
+skinparam ArrowColor #12324A
+skinparam ArrowThickness 1.6
+skinparam defaultFontName Arial
+skinparam defaultFontSize 14
+skinparam activity {
+  BackgroundColor #FFFFFF
+  BorderColor #CBD5E1
+  FontColor #12324A
+  StartColor #0E7C86
+  EndColor #0E7C86
+  DiamondBackgroundColor #FFF7ED
+  DiamondBorderColor #D97706
+  DiamondFontColor #12324A
+}
+
+start
+
+:Benh nhan den kham\nLDL-C cao / phat hien qua kiem tra suc khoe;
+
+:Hoi benh co muc tieu\nASCVD, yeu to nguy co, tien su gia dinh,\nthuoc dang dung, loi song;
+
+:Kham lam sang\nHA, BMI, dau hieu FH,\ndau hieu benh mach ngoai bien;
+
+:Xet nghiem ban dau\nLipid profile, HbA1c, eGFR,\nALT/AST, TSH khi can, Lp(a);
+
+if (Co nguyen nhan\nthu phat?) then (Co)
+  :Xu tri nguyen nhan thu phat\nva danh gia lai lipid;
+else (Khong ro)
+  :Phan tang nguy co\nSCORE2/SCORE2-OP neu phu hop,\nnhan dien LDL-C rat cao / nghi FH;
+endif
+
+:Dat muc tieu LDL-C\ntheo nhom nguy co;
+
+:Thay doi loi song\ncho tat ca benh nhan;
+
+if (Can thuoc ngay?) then (Co)
+  :Khoi tri statin cuong do cao\nhoac toi da dung nap;
+else (Chua can)
+  :Theo doi loi song\nva tai danh gia;
+endif
+
+:Theo doi sau 4-12 tuan\nLDL-C, tuan thu, an toan, tac dung phu;
+
+if (Dat muc tieu LDL-C?) then (Co)
+  :Duy tri dieu tri\nva theo doi dinh ky;
+else (Khong)
+  :Tang cuong dieu tri\nkiem tra tuan thu -> them ezetimibe\n-> can nhac PCSK9 / bempedoic acid / inclisiran;
+endif
+
+stop
+
+legend right
+  <b>Thong diep slide 4</b>
+  Hanh trinh xu tri di tu benh nhan cu the
+  den quyet dinh dieu tri dua tren nguy co.
+endlegend
+
+@enduml
