@@ -1,288 +1,431 @@
-# Đề 6 - Ứng dụng lâm sàng: Tiếp cận bệnh nhân rối loạn lipid máu theo ESC/EAS 2025
+# Đề 6 - Ứng dụng lâm sàng: tiếp cận bệnh nhân rối loạn lipid máu theo ESC/EAS 2025
 
-*Ngày lập kế hoạch: 14/05/2026*
+*Ngày cập nhật kế hoạch: 20/05/2026*
 
-## 1. Mục tiêu tài liệu
+## 1. Định hướng mới của bài báo cáo
 
-Tài liệu này phân tích yêu cầu đề tài giữa kỳ và đề xuất hướng nghiên cứu, cấu trúc báo cáo, kế hoạch triển khai slide cho chủ đề: **giả định tiếp cận bệnh nhân rối loạn lipid máu trong thực hành lâm sàng**.
+Thay vì mở đầu bằng phân tích guideline tổng quát, bài nên đi theo hướng **case-first clinical journey**: đưa một bệnh nhân giả định vào ngay từ đầu, sau đó từng bước xử lý bệnh nhân này theo logic lâm sàng.
 
-Đầu ra cuối cùng cần hướng tới một bài trình bày 30-50 slide, có tính ứng dụng, có flowchart từ khám đến điều trị, có 1 ca lâm sàng hoàn chỉnh gồm 5 slide riêng, và kết thúc bằng 3-5 thông điệp chính.
+Lý do cải tiến:
 
-## 2. Làm rõ phạm vi guideline
+- Đề bài yêu cầu "giả định tiếp cận bệnh nhân rối loạn lipid", nên cách kể theo hành trình bệnh nhân phù hợp hơn so với trình bày guideline thuần túy.
+- Người nghe dễ theo dõi hơn vì mỗi phần lý thuyết đều trả lời một câu hỏi thực tế: hỏi gì, xét nghiệm gì, phân tầng ra sao, khi nào dùng thuốc, theo dõi thế nào.
+- Guideline ESC/EAS 2019 và 2025 được lồng vào các điểm ra quyết định, giúp bài có tính ứng dụng lâm sàng rõ hơn.
+- Case trở thành "xương sống" của toàn bộ deck, không chỉ là 5 slide riêng ở cuối.
 
-Nguồn chính cần dùng là **2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias**. Điểm cần lưu ý khi trình bày: đây là **bản cập nhật tập trung năm 2025** dựa trên guideline ESC/EAS 2019, không phải một guideline hoàn toàn mới.
+Thông điệp thiết kế nội dung:
 
-Các điểm 2025 cần ưu tiên đưa vào bài:
+> Bài trình bày không đi từ guideline đến bệnh nhân, mà đi từ bệnh nhân đến quyết định điều trị dựa trên guideline.
 
-- Cập nhật đánh giá nguy cơ bằng SCORE2 và SCORE2-OP cho người chưa có ASCVD rõ, đái tháo đường, bệnh thận mạn hoặc rối loạn lipid/HA di truyền.
-- Nhấn mạnh điều trị theo nguy cơ tim mạch tổng thể và mục tiêu LDL-C.
-- Bổ sung vai trò của liệu pháp không statin có bằng chứng lợi ích tim mạch: ezetimibe, PCSK9 monoclonal antibodies, bempedoic acid.
-- Bempedoic acid được khuyến cáo ở bệnh nhân không dùng được statin để đạt mục tiêu LDL-C, và có thể cân nhắc thêm vào statin tối đa dung nạp có/không có ezetimibe ở nhóm nguy cơ cao hoặc rất cao.
-- Lp(a) >50 mg/dL, xấp xỉ 105 nmol/L, nên được xem là yếu tố tăng cường nguy cơ tim mạch ở người trưởng thành.
-- Ở hội chứng vành cấp, cần cân nhắc chiến lược điều trị tích cực sớm, gồm tăng cường điều trị trong thời gian nằm viện và có thể khởi trị phối hợp statin cường độ cao + ezetimibe khi dự kiến statin đơn độc không đạt mục tiêu.
+## 2. Phạm vi guideline cần trình bày
 
-Nguồn nền cho mục tiêu LDL-C vẫn lấy từ ESC/EAS 2019 vì bản 2025 là cập nhật tập trung:
+Nguồn chính cần dùng là **2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias**. Cần nói rõ đây là **bản cập nhật tập trung năm 2025** của guideline ESC/EAS 2019, không phải guideline hoàn toàn mới.
 
-| Nhóm nguy cơ | Mục tiêu LDL-C cần trình bày |
+Vai trò của guideline trong bài:
+
+- ESC/EAS 2019: cung cấp nền tảng phân tầng nguy cơ, mục tiêu LDL-C và chiến lược điều trị bậc thang.
+- ESC/EAS 2025 Focused Update: bổ sung/cập nhật các điểm mới như SCORE2/SCORE2-OP, Lp(a), điều trị sớm sau ACS, bempedoic acid, liệu pháp không statin và chiến lược phối hợp.
+
+Mục tiêu LDL-C nên trình bày xuyên suốt case:
+
+| Nhóm nguy cơ | Mục tiêu LDL-C |
 |---|---|
-| Thấp | LDL-C <116 mg/dL |
-| Trung bình | LDL-C <100 mg/dL |
-| Cao | LDL-C <70 mg/dL và giảm >=50% so với ban đầu |
-| Rất cao | LDL-C <55 mg/dL và giảm >=50% so với ban đầu |
+| Thấp | <116 mg/dL |
+| Trung bình | <100 mg/dL |
+| Cao | <70 mg/dL và giảm >=50% so với ban đầu |
+| Rất cao | <55 mg/dL và giảm >=50% so với ban đầu |
 
-## 3. Phân tích yêu cầu đề bài
+## 3. Case giả định mới đề xuất
 
-### Yêu cầu chung của team
+Ca cũ trong plan trước là nam 58 tuổi có đái tháo đường, tăng huyết áp và hút thuốc. Để tránh trùng cách tiếp cận đã có người khác làm, case mới nên khác rõ về tuổi, giới, bối cảnh và vấn đề lâm sàng.
 
-- 30-50 slide.
-- 1 case lâm sàng, tách thành 5 slide riêng.
-- 1 flowchart tổng kết.
-- 3-5 take-home messages.
+### Case mới: nghi tăng cholesterol máu gia đình ở bệnh nhân nữ trung niên
 
-### Yêu cầu riêng của Đề 6
+Bệnh nhân nữ 46 tuổi đến khám phòng khám tim mạch vì kết quả khám sức khỏe định kỳ ghi nhận cholesterol rất cao. Bệnh nhân chưa từng nhồi máu cơ tim, đột quỵ hoặc bệnh động mạch ngoại biên.
 
-Đề tài yêu cầu trình bày một quy trình tiếp cận bệnh nhân rối loạn lipid máu. Trọng tâm không phải chỉ mô tả thuốc, mà là **ra quyết định lâm sàng**:
+Thông tin ban đầu:
 
-1. Bệnh nhân đến khám thì hỏi gì, khám gì, làm xét nghiệm gì?
-2. Phân tầng nguy cơ tim mạch bằng cách nào?
-3. Khi nào chỉ thay đổi lối sống, khi nào cần thuốc?
-4. Chọn statin, ezetimibe, bempedoic acid, PCSK9 inhibitor/inclisiran trong bối cảnh nào?
-5. Theo dõi đáp ứng, tác dụng phụ, tuân thủ và điều chỉnh điều trị ra sao?
-6. Khi nào cần chuyển chuyên khoa tim mạch/nội tiết/chuyên lipid?
+- Nữ, 46 tuổi.
+- Không hút thuốc.
+- Huyết áp 128/78 mmHg.
+- BMI 24.8 kg/m2.
+- Không đái tháo đường đã biết.
+- Cha bị nhồi máu cơ tim lúc 49 tuổi.
+- Một chị gái đang dùng thuốc hạ cholesterol từ tuổi 38.
+- Bệnh nhân có xanthelasma nhẹ; nghi có dày gân Achilles khi khám.
+- Không đau ngực, không khó thở khi gắng sức.
 
-## 4. Câu hỏi nghiên cứu chính
+Xét nghiệm ban đầu:
 
-Để làm báo cáo chắc và có mạch, nhóm nên trả lời 6 câu hỏi nghiên cứu:
-
-1. **LDL-C liên quan thế nào với xơ vữa động mạch và biến cố tim mạch?**
-   - Vai trò nhân quả của LDL-C.
-   - Nguyên tắc "lower is better" và giảm LDL-C theo nguy cơ.
-
-2. **Bệnh nhân rối loạn lipid máu được đánh giá ban đầu như thế nào?**
-   - Tiền sử ASCVD, đái tháo đường, CKD, tăng huyết áp, hút thuốc, tiền sử gia đình.
-   - Xét nghiệm lipid máu, glucose/HbA1c, men gan, creatinine/eGFR, TSH nếu nghi nguyên nhân thứ phát.
-   - Xác định nguyên nhân thứ phát: suy giáp, hội chứng thận hư, bệnh gan mật, thuốc, rượu, béo phì, đái tháo đường chưa kiểm soát.
-
-3. **Phân tầng nguy cơ và mục tiêu LDL-C ra sao?**
-   - Dùng SCORE2/SCORE2-OP ở người phù hợp.
-   - Xác định nhóm rất cao/cao/trung bình/thấp dựa trên ASCVD, DM, CKD, FH, SCORE2/SCORE2-OP và yếu tố tăng cường nguy cơ.
-   - Gắn mỗi nhóm với mục tiêu LDL-C cụ thể.
-
-4. **Khi nào cần thuốc?**
-   - Luôn có thay đổi lối sống.
-   - Cần thuốc ngay khi nguy cơ cao/rất cao, ASCVD, LDL-C rất cao, FH, DM/CKD nguy cơ cao, hoặc không đạt mục tiêu sau can thiệp lối sống.
-   - Statin là nền tảng nếu không chống chỉ định/không dung nạp.
-   - Thêm ezetimibe, bempedoic acid hoặc PCSK9 inhibitor tùy khoảng cách LDL-C còn thiếu, nguy cơ và khả năng dung nạp.
-
-5. **Theo dõi điều trị như thế nào?**
-   - Đánh giá LDL-C sau khởi trị hoặc chỉnh liều, thường sau khoảng 4-12 tuần theo thực hành lâm sàng.
-   - Theo dõi men gan, triệu chứng cơ, tương tác thuốc, tuân thủ, thay đổi lối sống.
-   - Nếu chưa đạt mục tiêu: kiểm tra tuân thủ và nguyên nhân thứ phát, tối ưu liều statin, thêm ezetimibe, sau đó cân nhắc thuốc không statin mạnh hơn.
-
-6. **Làm sao biến guideline thành flowchart dễ nhớ?**
-   - Khám ban đầu -> xét nghiệm -> loại trừ nguyên nhân thứ phát -> phân tầng nguy cơ -> đặt mục tiêu LDL-C -> chọn điều trị -> tái kiểm tra -> tăng cường hoặc duy trì.
-
-## 5. Đề xuất cấu trúc slide 30-50 trang
-
-Khuyến nghị chọn khoảng **38-42 slide** để đủ sâu nhưng không quá tải.
-
-### Phần 1 - Mở đầu và nền tảng (5-6 slide)
-
-1. Tiêu đề, thành viên, mục tiêu bài.
-2. Vì sao rối loạn lipid máu quan trọng trong thực hành.
-3. LDL-C và xơ vữa động mạch: thông điệp nhân quả.
-4. ESC/EAS 2025 là bản cập nhật tập trung của guideline 2019.
-5. Ba câu hỏi lâm sàng xuyên suốt: đánh giá nguy cơ, khi nào dùng thuốc, theo dõi ra sao.
-
-### Phần 2 - Khám và đánh giá ban đầu (7-8 slide)
-
-6. Bệnh nhân nào cần đánh giá lipid máu?
-7. Khai thác bệnh sử và yếu tố nguy cơ.
-8. Khám lâm sàng: BMI, vòng bụng, huyết áp, dấu hiệu FH/xanthoma nếu có.
-9. Bộ xét nghiệm ban đầu.
-10. Tìm nguyên nhân thứ phát.
-11. Nhận diện nhóm cần xử trí sớm: ASCVD, LDL-C rất cao, nghi FH, đái tháo đường, CKD.
-12. Vai trò Lp(a), hs-CRP, CAC trong tinh chỉnh nguy cơ.
-
-### Phần 3 - Phân tầng nguy cơ và mục tiêu LDL-C (6-7 slide)
-
-13. Nguyên tắc phân tầng nguy cơ tổng thể.
-14. SCORE2 và SCORE2-OP: dùng cho ai, không dùng cho ai.
-15. Bảng nhóm nguy cơ: thấp, trung bình, cao, rất cao.
-16. Bảng mục tiêu LDL-C theo nguy cơ.
-17. Ví dụ nhanh: cùng LDL-C nhưng khác nguy cơ -> khác quyết định điều trị.
-18. Các tình huống làm tăng mức độ ưu tiên điều trị.
-
-### Phần 4 - Khi nào cần thuốc và chọn thuốc (9-11 slide)
-
-19. Thay đổi lối sống cho tất cả bệnh nhân.
-20. Khi nào chỉ theo dõi lối sống, khi nào khởi thuốc.
-21. Statin: vai trò nền tảng, cường độ và kỳ vọng giảm LDL-C.
-22. Ezetimibe: khi LDL-C chưa đạt mục tiêu hoặc cần phối hợp sớm.
-23. Bempedoic acid: vai trò trong không dung nạp statin hoặc cần tăng cường ở nguy cơ cao/rất cao.
-24. PCSK9 inhibitor: nhóm rất cao, sau statin + ezetimibe chưa đạt mục tiêu, hoặc cần giảm LDL-C lớn.
-25. Inclisiran: cơ chế tiêm định kỳ, thuận lợi về tuân thủ; cần trình bày thận trọng theo mức khuyến cáo/khả dụng.
-26. Tăng triglyceride: nhận diện khi nào ưu tiên phòng viêm tụy và khi nào giảm nguy cơ tim mạch.
-27. Điều trị trong hội chứng vành cấp: phối hợp sớm, tăng cường trong nhập viện.
-28. Không dung nạp statin: cách tiếp cận thực tế.
-
-### Phần 5 - Theo dõi và tăng cường điều trị (5-6 slide)
-
-29. Lịch theo dõi sau khởi trị/chỉnh liều.
-30. Đánh giá hiệu quả: LDL-C đạt mục tiêu hay chưa.
-31. Đánh giá an toàn: men gan, triệu chứng cơ, tương tác thuốc, phụ nữ có thai.
-32. Nếu chưa đạt mục tiêu: thuật toán tăng cường.
-33. Theo dõi dài hạn: duy trì, giáo dục, tái đánh giá nguy cơ.
-
-### Phần 6 - Case lâm sàng riêng 5 slide
-
-34. Case slide 1: Bệnh cảnh ban đầu.
-35. Case slide 2: Dữ liệu xét nghiệm và nguy cơ.
-36. Case slide 3: Phân tầng nguy cơ và mục tiêu LDL-C.
-37. Case slide 4: Quyết định điều trị ban đầu.
-38. Case slide 5: Theo dõi sau điều trị và tăng cường nếu chưa đạt.
-
-### Phần 7 - Tổng kết (3-4 slide)
-
-39. Flowchart từ khám -> điều trị -> theo dõi.
-40. Bảng tóm tắt thuốc và vị trí sử dụng.
-41. 3-5 take-home messages.
-42. Tài liệu tham khảo.
-
-## 6. Đề xuất case lâm sàng hoàn chỉnh
-
-### Bệnh cảnh đề xuất
-
-Bệnh nhân nam 58 tuổi, hút thuốc 20 gói-năm, tăng huyết áp, đái tháo đường type 2 trong 6 năm, BMI 28 kg/m2. Đến khám vì phát hiện cholesterol cao khi kiểm tra sức khỏe. Chưa có nhồi máu cơ tim hoặc đột quỵ đã biết.
-
-### Dữ liệu ban đầu
-
-- Huyết áp: 145/90 mmHg.
-- LDL-C: 172 mg/dL.
-- HDL-C: 38 mg/dL.
-- Triglyceride: 210 mg/dL.
-- HbA1c: 7.8%.
-- eGFR: 72 mL/phút/1.73 m2.
+- LDL-C: 238 mg/dL.
+- Total cholesterol: 318 mg/dL.
+- HDL-C: 52 mg/dL.
+- Triglyceride: 136 mg/dL.
+- HbA1c: 5.6%.
+- eGFR: 92 mL/phút/1.73 m2.
 - ALT/AST bình thường.
-- Không đau cơ nền, không bệnh gan tiến triển.
+- TSH bình thường.
+- Urine protein âm tính.
+- Lp(a): 72 mg/dL.
 
-### Vấn đề lâm sàng
+Vấn đề lâm sàng chính:
 
-- Bệnh nhân có nhiều yếu tố nguy cơ: tuổi, nam, hút thuốc, tăng huyết áp, đái tháo đường, LDL-C cao.
-- Cần phân tầng nguy cơ cao/rất cao tùy tiêu chí chi tiết và có thể dùng SCORE2 nếu phù hợp.
-- Mục tiêu LDL-C khả năng là ít nhất <70 mg/dL và giảm >=50%; nếu được xếp rất cao thì mục tiêu <55 mg/dL và giảm >=50%.
+- LDL-C rất cao.
+- Tiền sử gia đình ASCVD sớm.
+- Có dấu hiệu gợi ý familial hypercholesterolemia, gọi tắt là FH.
+- Lp(a) tăng, là yếu tố tăng cường nguy cơ.
+- SCORE2 không nên là công cụ quyết định duy nhất vì bệnh nhân có LDL-C rất cao và nghi FH.
+- Cần điều trị thuốc sớm, không chờ thay đổi lối sống đơn thuần.
 
-### Quyết định điều trị minh họa
+Mục tiêu điều trị minh họa:
 
-- Tư vấn lối sống: ngưng hút thuốc, chế độ ăn kiểu Địa Trung Hải/DASH, giảm mỡ bão hòa/trans fat, vận động, giảm cân, kiểm soát đường huyết và huyết áp.
-- Khởi statin cường độ cao nếu không chống chỉ định.
-- Hẹn kiểm tra lipid sau 4-12 tuần.
-- Nếu LDL-C còn cao hơn mục tiêu: thêm ezetimibe.
-- Nếu vẫn chưa đạt, đặc biệt nếu nguy cơ rất cao hoặc khoảng cách LDL-C còn lớn: cân nhắc PCSK9 inhibitor; nếu không dung nạp statin, cân nhắc bempedoic acid hoặc liệu pháp không statin có bằng chứng.
+- Xếp ít nhất nhóm nguy cơ cao do LDL-C rất cao/nghi FH.
+- Nếu có bằng chứng xơ vữa dưới lâm sàng rõ, hoặc tiêu chí rất cao khác, cân nhắc mục tiêu rất cao.
+- Mục tiêu trình bày chính: LDL-C <70 mg/dL và giảm >=50% so với ban đầu.
+- Nếu phát hiện ASCVD hoặc nguy cơ rất cao: LDL-C <55 mg/dL và giảm >=50%.
 
-### Điểm học từ case
+Lý do case này tốt hơn cho bài:
 
-Case này giúp minh họa đủ 3 yêu cầu của đề:
+- Khác hẳn case đái tháo đường/tăng huyết áp phổ biến.
+- Minh họa rõ việc **không chỉ nhìn SCORE2** mà phải nhận diện LDL-C rất cao, FH và tiền sử gia đình.
+- Có đủ đất để nói về khám lâm sàng, xét nghiệm thứ phát, Lp(a), cascade screening, quyết định dùng thuốc sớm và tăng cường điều trị.
+- Rất phù hợp với chủ đề "ứng dụng lâm sàng" vì bác sĩ phải ra quyết định khi bệnh nhân chưa có biến cố tim mạch rõ.
 
-- Các bước tiếp cận từ khám, xét nghiệm, phân tầng nguy cơ.
-- Khi nào cần thuốc: bệnh nhân nguy cơ cao/rất cao và LDL-C cao nên dùng thuốc ngay song song với lối sống.
-- Theo dõi điều trị: kiểm tra đạt mục tiêu, an toàn, tuân thủ và tăng cường bậc thang.
+## 4. Cấu trúc kể chuyện mới cho bài báo cáo
 
-## 7. Flowchart tổng kết dự kiến
+Bài nên được chia thành 7 chặng, mỗi chặng tương ứng với một câu hỏi nghiệp vụ/lâm sàng.
+
+### Chặng 1 - Bệnh nhân bước vào phòng khám
+
+Câu hỏi nghiệp vụ:
+
+- Đây là rối loạn lipid máu đơn thuần hay dấu hiệu của nguy cơ tim mạch cao?
+- Cần hỏi thêm gì để không bỏ sót bệnh sử quan trọng?
+- Có cần xử trí ngay hay có thể hẹn theo dõi?
+
+Nội dung cần lồng guideline:
+
+- Rối loạn lipid máu không được đánh giá bằng LDL-C đơn độc.
+- Cần đặt LDL-C trong bối cảnh nguy cơ tổng thể.
+- Tiền sử gia đình ASCVD sớm là dữ kiện quan trọng.
+
+### Chặng 2 - Khám và xét nghiệm ban đầu
+
+Câu hỏi nghiệp vụ:
+
+- Xét nghiệm nào là bắt buộc trước khi khởi trị?
+- Cần loại trừ nguyên nhân thứ phát nào?
+- Dữ liệu nào ảnh hưởng đến lựa chọn thuốc và theo dõi an toàn?
+
+Nội dung cần lồng guideline:
+
+- Lipid profile, HbA1c/glucose, eGFR, ALT/AST.
+- TSH khi nghi suy giáp hoặc LDL-C cao bất thường.
+- Tìm CKD, bệnh gan, hội chứng thận hư, thuốc gây rối loạn lipid.
+- Lp(a) có thể dùng để tinh chỉnh nguy cơ; Lp(a) >50 mg/dL là yếu tố tăng cường nguy cơ.
+
+### Chặng 3 - Nhận diện nguy cơ đặc biệt: nghi FH
+
+Câu hỏi nghiệp vụ:
+
+- Khi nào không nên chỉ dựa vào SCORE2?
+- LDL-C rất cao và tiền sử gia đình có ý nghĩa gì?
+- Có cần sàng lọc người thân không?
+
+Nội dung cần lồng guideline:
+
+- SCORE2/SCORE2-OP hữu ích cho đánh giá nguy cơ dân số phù hợp, nhưng không thay thế đánh giá lâm sàng ở người LDL-C rất cao, nghi FH, ASCVD, DM hoặc CKD rõ.
+- FH làm tăng nguy cơ suốt đời do phơi nhiễm LDL-C kéo dài.
+- Cascade screening cho người thân bậc một là điểm ứng dụng thực tế nên nêu.
+
+### Chặng 4 - Đặt mục tiêu LDL-C
+
+Câu hỏi nghiệp vụ:
+
+- Bệnh nhân này thuộc nhóm nguy cơ nào?
+- Mục tiêu LDL-C cần đạt là bao nhiêu?
+- Cần giảm LDL-C bao nhiêu phần trăm so với ban đầu?
+
+Nội dung cần lồng guideline:
+
+- Nhóm nguy cơ cao: LDL-C <70 mg/dL và giảm >=50%.
+- Nhóm rất cao: LDL-C <55 mg/dL và giảm >=50%.
+- Với LDL-C ban đầu 238 mg/dL, chỉ giảm nhẹ là không đủ; cần chiến lược mạnh và có kế hoạch tăng cường.
+
+### Chặng 5 - Quyết định điều trị ban đầu
+
+Câu hỏi nghiệp vụ:
+
+- Có thể chỉ thay đổi lối sống trước không?
+- Khi nào phải dùng thuốc ngay?
+- Nên bắt đầu bằng thuốc nào?
+
+Nội dung cần lồng guideline:
+
+- Lối sống áp dụng cho tất cả bệnh nhân, nhưng ở LDL-C rất cao/nghi FH không nên chờ lối sống đơn thuần.
+- Statin cường độ cao hoặc tối đa dung nạp là nền tảng.
+- Có thể dự kiến sớm nhu cầu phối hợp ezetimibe vì khoảng cách từ LDL-C 238 xuống <70 mg/dL rất lớn.
+
+### Chặng 6 - Theo dõi sau điều trị và tăng cường
+
+Câu hỏi nghiệp vụ:
+
+- Khi nào hẹn kiểm tra lại?
+- Nếu LDL-C giảm nhưng chưa đạt mục tiêu thì làm gì?
+- Làm sao phân biệt thất bại điều trị do thuốc chưa đủ mạnh với do không tuân thủ?
+
+Nội dung cần lồng guideline:
+
+- Kiểm tra LDL-C sau khoảng 4-12 tuần sau khởi trị hoặc chỉnh liều.
+- Nếu chưa đạt mục tiêu: kiểm tra tuân thủ, tác dụng phụ, nguyên nhân thứ phát; tối ưu statin; thêm ezetimibe; sau đó cân nhắc PCSK9 inhibitor hoặc bempedoic acid tùy nguy cơ, dung nạp và khả dụng.
+- Bempedoic acid là điểm cập nhật 2025 quan trọng, đặc biệt ở bệnh nhân không dung nạp statin hoặc cần tăng cường không statin.
+
+### Chặng 7 - Kết thúc case và bài học
+
+Câu hỏi nghiệp vụ:
+
+- Quyết định cuối cùng có hợp lý không?
+- Cần theo dõi dài hạn những gì?
+- Thông điệp nào bác sĩ/sinh viên cần nhớ?
+
+Nội dung cần lồng guideline:
+
+- Điều trị lipid là quản lý nguy cơ dài hạn.
+- Mục tiêu là giảm biến cố tim mạch, không chỉ làm đẹp xét nghiệm.
+- Phải theo dõi đạt mục tiêu, an toàn thuốc, tuân thủ và sàng lọc gia đình nếu nghi FH.
+
+## 5. Đề xuất cấu trúc slide mới
+
+Khuyến nghị tạo **40-44 slide**. Bài vẫn đáp ứng yêu cầu 30-50 slide, có case 5 slide riêng, có flowchart và take-home messages. Điểm khác là case sẽ xuất hiện từ đầu và được nhắc lại xuyên suốt.
+
+### Phần 1 - Mở bằng case thay vì guideline (5 slide)
+
+1. Tiêu đề: tiếp cận bệnh nhân rối loạn lipid máu theo ESC/EAS 2025.
+2. Case mở đầu: nữ 46 tuổi, LDL-C 238 mg/dL, cha NMCT sớm.
+3. Câu hỏi tại phòng khám: đây chỉ là cholesterol cao hay nguy cơ cao?
+4. Bản đồ hành trình lâm sàng: hỏi bệnh -> khám -> xét nghiệm -> nguy cơ -> mục tiêu -> điều trị -> theo dõi.
+5. Guideline được dùng như công cụ ra quyết định: ESC/EAS 2019 nền tảng + 2025 focused update.
+
+### Phần 2 - Tiếp cận ban đầu từ case (7 slide)
+
+6. Hỏi bệnh có mục tiêu: ASCVD, yếu tố nguy cơ, tiền sử gia đình, thuốc, lối sống.
+7. Khám lâm sàng: BMI, huyết áp, xanthelasma, gân Achilles, dấu hiệu PAD nếu có.
+8. Vấn đề nghiệp vụ 1: không bỏ sót FH ở người LDL-C rất cao.
+9. Xét nghiệm cần làm trước điều trị.
+10. Loại trừ nguyên nhân thứ phát.
+11. Dữ liệu case sau xét nghiệm.
+12. Ý nghĩa của Lp(a) tăng trong case.
+
+### Phần 3 - Phân tầng nguy cơ ngay trên case (7 slide)
+
+13. SCORE2/SCORE2-OP dùng khi nào?
+14. Khi nào SCORE2 không đủ: ASCVD, DM, CKD, FH, LDL-C rất cao.
+15. Case này gợi ý FH như thế nào?
+16. Vấn đề nghiệp vụ 2: phân tầng nguy cơ phải kết hợp guideline và dữ kiện cá nhân.
+17. Bảng mục tiêu LDL-C theo nguy cơ.
+18. Áp mục tiêu vào case: từ LDL-C 238 mg/dL đến <70 mg/dL.
+19. Cần giảm bao nhiêu LDL-C? Vì sao statin đơn độc có thể chưa đủ?
+
+### Phần 4 - Điều trị ban đầu theo quyết định lâm sàng (8 slide)
+
+20. Lối sống: bắt buộc nhưng không đủ trong case này.
+21. Khi nào cần thuốc ngay?
+22. Statin cường độ cao/tối đa dung nạp: lựa chọn nền tảng.
+23. Vấn đề nghiệp vụ 3: giải thích cho bệnh nhân vì sao phải dùng thuốc dù chưa có triệu chứng.
+24. Dự kiến khoảng cách đến mục tiêu và nhu cầu phối hợp.
+25. Ezetimibe: bước tăng cường đầu tiên.
+26. Bempedoic acid: điểm cập nhật 2025 và vị trí trong không dung nạp statin/tăng cường.
+27. PCSK9 inhibitor và inclisiran: khi cần giảm LDL-C mạnh hoặc cải thiện tuân thủ.
+
+### Phần 5 - Theo dõi và xử trí chưa đạt mục tiêu (7 slide)
+
+28. Kế hoạch theo dõi sau 4-12 tuần.
+29. Kịch bản theo dõi: LDL-C giảm từ 238 xuống 118 mg/dL.
+30. Vấn đề nghiệp vụ 4: giảm nhiều nhưng vẫn chưa đạt mục tiêu.
+31. Kiểm tra tuân thủ, tác dụng phụ, tương tác thuốc, nguyên nhân thứ phát.
+32. Quyết định thêm ezetimibe.
+33. Kịch bản sau phối hợp: LDL-C còn 82 mg/dL, vẫn chưa đạt <70 mg/dL.
+34. Cân nhắc PCSK9 inhibitor/bempedoic acid và chuyển chuyên khoa lipid nếu cần.
+
+### Phần 6 - Case lâm sàng hoàn chỉnh, tách 5 slide riêng (5 slide)
+
+Phần này dùng để đáp ứng yêu cầu bắt buộc "1 case lâm sàng 5 slide riêng", đồng thời tổng hợp lại hành trình đã phân tích.
+
+35. Case slide 1: Bệnh cảnh ban đầu.
+36. Case slide 2: Dữ liệu khám và xét nghiệm.
+37. Case slide 3: Phân tầng nguy cơ, nghi FH, Lp(a) tăng.
+38. Case slide 4: Mục tiêu LDL-C và điều trị ban đầu.
+39. Case slide 5: Theo dõi, tăng cường điều trị và kế hoạch dài hạn.
+
+### Phần 7 - Flowchart và tổng kết (4-5 slide)
+
+40. Flowchart tổng kết từ khám -> điều trị -> theo dõi.
+41. Bảng tóm tắt thuốc và vị trí sử dụng.
+42. 3-5 take-home messages.
+43. Tài liệu tham khảo.
+44. Có thể thêm slide phụ về "clinical workflow checklist" nếu cần đủ 44 slide.
+
+## 6. Nội dung chi tiết cho case 5 slide riêng
+
+### Slide case 1 - Bệnh cảnh ban đầu
+
+Thông điệp chính: LDL-C rất cao ở người chưa có triệu chứng vẫn có thể là nguy cơ lớn.
+
+Nội dung:
+
+- Nữ 46 tuổi, khám sức khỏe định kỳ phát hiện cholesterol cao.
+- LDL-C ban đầu 238 mg/dL.
+- Cha NMCT lúc 49 tuổi.
+- Chị gái dùng thuốc hạ cholesterol từ tuổi 38.
+- Không hút thuốc, không đái tháo đường đã biết, không triệu chứng đau ngực.
+
+### Slide case 2 - Khám và xét nghiệm
+
+Thông điệp chính: phải xác nhận nguy cơ và loại trừ nguyên nhân thứ phát.
+
+Nội dung:
+
+- HA 128/78 mmHg, BMI 24.8 kg/m2.
+- Xanthelasma nhẹ, nghi dày gân Achilles.
+- LDL-C 238, TC 318, HDL-C 52, TG 136 mg/dL.
+- HbA1c 5.6%, eGFR 92, ALT/AST bình thường.
+- TSH bình thường, urine protein âm tính.
+- Lp(a) 72 mg/dL.
+
+### Slide case 3 - Phân tầng nguy cơ
+
+Thông điệp chính: case này không nên xử lý như "nguy cơ thấp vì còn trẻ và chưa triệu chứng".
+
+Nội dung:
+
+- LDL-C rất cao + tiền sử gia đình ASCVD sớm + dấu hiệu lâm sàng gợi ý FH.
+- Lp(a) tăng là risk enhancer.
+- SCORE2 có thể tham khảo nhưng không phải yếu tố quyết định duy nhất.
+- Xếp ít nhất nguy cơ cao; cân nhắc rất cao nếu có ASCVD dưới lâm sàng hoặc tiêu chí bổ sung.
+
+### Slide case 4 - Mục tiêu và điều trị ban đầu
+
+Thông điệp chính: cần thuốc ngay song song với thay đổi lối sống.
+
+Nội dung:
+
+- Mục tiêu chính: LDL-C <70 mg/dL và giảm >=50%.
+- Nếu xác định nguy cơ rất cao: mục tiêu <55 mg/dL và giảm >=50%.
+- Khởi statin cường độ cao/tối đa dung nạp.
+- Tư vấn lối sống: giảm saturated/trans fat, tăng chất xơ, vận động, duy trì cân nặng, không hút thuốc.
+- Tư vấn sàng lọc lipid cho người thân bậc một.
+
+### Slide case 5 - Theo dõi và tăng cường
+
+Thông điệp chính: giảm LDL-C chưa đủ nếu chưa đạt mục tiêu.
+
+Kịch bản minh họa:
+
+- Sau 8 tuần statin: LDL-C giảm còn 118 mg/dL.
+- Giảm rõ nhưng chưa đạt <70 mg/dL.
+- Kiểm tra tuân thủ và tác dụng phụ.
+- Thêm ezetimibe.
+- Sau phối hợp vẫn còn 82 mg/dL: cân nhắc PCSK9 inhibitor hoặc bempedoic acid tùy khả dụng/dung nạp/nguy cơ.
+- Theo dõi dài hạn và cascade screening gia đình.
+
+## 7. Flowchart mới nên dùng
 
 ```mermaid
 flowchart TD
-    A[Benh nhan den kham / phat hien lipid cao] --> B[Khai thac benh su, yeu to nguy co, thuoc dang dung]
-    B --> C[Kham lam sang va xet nghiem lipid, HbA1c, eGFR, men gan, TSH khi can]
-    C --> D{Co ASCVD, DM, CKD, FH hoac LDL-C rat cao?}
-    D -->|Co| E[Xep nguy co cao/rat cao theo tieu chi]
-    D -->|Khong| F[Tinh SCORE2 hoac SCORE2-OP neu phu hop]
-    F --> G[Gan nhom nguy co: thap / trung binh / cao / rat cao]
-    E --> H[Dat muc tieu LDL-C theo nguy co]
-    G --> H
-    H --> I[Thay doi loi song cho tat ca benh nhan]
-    I --> J{Can thuoc ngay?}
-    J -->|Nguy co cao/rat cao, ASCVD, DM/CKD/FH, LDL-C cao| K[Khoi tri statin toi da dung nap]
-    J -->|Nguy co thap/trung binh va gan muc tieu| L[Theo doi loi song, tai danh gia]
-    K --> M[Kiem tra LDL-C sau 4-12 tuan]
-    L --> M
-    M --> N{Dat muc tieu LDL-C?}
-    N -->|Co| O[Duy tri, theo doi dinh ky, cung co tuan thu]
-    N -->|Khong| P[Kiem tra tuan thu, nguyen nhan thu phat, toi uu statin]
-    P --> Q[Them ezetimibe]
-    Q --> R{Van chua dat muc tieu?}
-    R -->|Co| S[Can nhac PCSK9 inhibitor / bempedoic acid / lieu phap phu hop]
-    R -->|Khong| O
-    S --> O
+    A[Benh nhan nu 46 tuoi, LDL-C 238 mg/dL] --> B[Hoi benh: ASCVD, yeu to nguy co, tien su gia dinh, thuoc, loi song]
+    B --> C[Kham: HA, BMI, xanthelasma, gan Achilles, dau hieu mach ngoai bien]
+    C --> D[Xet nghiem: lipid profile, HbA1c, eGFR, ALT/AST, TSH, urine protein, Lp(a)]
+    D --> E{Co nguyen nhan thu phat?}
+    E -->|Co| F[Dieu tri nguyen nhan thu phat va danh gia lai lipid]
+    E -->|Khong ro| G{LDL-C rat cao / nghi FH / tien su gia dinh ASCVD som?}
+    G -->|Co| H[Khong chi dua vao SCORE2; xep nguy co cao hoac rat cao]
+    G -->|Khong| I[Tinh SCORE2 hoac SCORE2-OP neu phu hop]
+    H --> J[Dat muc tieu LDL-C: <70 hoac <55 mg/dL tuy nguy co, kem giam >=50%]
+    I --> J
+    J --> K[Tu van loi song cho tat ca benh nhan]
+    K --> L{Can thuoc ngay?}
+    L -->|LDL-C rat cao / FH / nguy co cao| M[Khoi tri statin cuong do cao hoac toi da dung nap]
+    L -->|Nguy co thap-trung binh va gan muc tieu| N[Loi song va tai danh gia]
+    M --> O[Kiem tra LDL-C sau 4-12 tuan]
+    N --> O
+    O --> P{Dat muc tieu LDL-C?}
+    P -->|Co| Q[Duy tri, theo doi dinh ky, sang loc gia dinh neu nghi FH]
+    P -->|Khong| R[Kiem tra tuan thu, tac dung phu, tuong tac, nguyen nhan thu phat]
+    R --> S[Them ezetimibe]
+    S --> T{Van chua dat muc tieu?}
+    T -->|Co| U[Can nhac PCSK9 inhibitor / bempedoic acid / inclisiran; chuyen chuyen khoa neu can]
+    T -->|Khong| Q
+    U --> Q
 ```
 
-## 8. Kế hoạch thực hiện cụ thể
+## 8. Các vấn đề nghiệp vụ cần nêu rõ trong bài
 
-### Giai đoạn 1 - Chốt nguồn và khung nội dung
+Để bài có chiều sâu ứng dụng, mỗi chặng nên có một "vấn đề nghiệp vụ" hoặc "clinical decision point".
 
-Thời lượng đề xuất: 0.5-1 ngày.
+| Vấn đề | Ý nghĩa trong thực hành | Cách đưa vào slide |
+|---|---|---|
+| Không bỏ sót FH | LDL-C rất cao ở người tương đối trẻ có thể là nguy cơ suốt đời | Dùng callout "red flag" |
+| Không lạm dụng SCORE2 | SCORE2 không thay thế đánh giá lâm sàng ở FH/LDL-C rất cao | Slide so sánh "SCORE2 hữu ích nhưng không đủ" |
+| Lối sống không đồng nghĩa trì hoãn thuốc | Nguy cơ cao cần thuốc sớm song song lối sống | Decision slide "Start drug now?" |
+| Giảm LDL-C chưa đủ nếu chưa đạt mục tiêu | Cần đạt target theo nguy cơ, không chỉ giảm so với ban đầu | Follow-up scenario |
+| Tuân thủ điều trị | Không đạt mục tiêu có thể do không dùng thuốc đều, tác dụng phụ, chi phí | Checklist trước khi tăng thuốc |
+| Cascade screening | FH liên quan gia đình, cần phát hiện người thân nguy cơ | Slide kế hoạch dài hạn |
 
-- Tải/đọc nguồn chính ESC/EAS 2025 Focused Update.
-- Đối chiếu mục tiêu LDL-C từ guideline ESC/EAS 2019.
-- Lập bảng thuốc: statin, ezetimibe, bempedoic acid, PCSK9 inhibitor, inclisiran, icosapent ethyl nếu cần.
-- Chốt case lâm sàng và dữ liệu xét nghiệm.
+## 9. Cách làm slide dễ tiếp cận hơn
 
-### Giai đoạn 2 - Viết outline chi tiết từng slide
+Nguyên tắc trình bày:
 
-Thời lượng đề xuất: 0.5 ngày.
+- Mỗi phần bắt đầu bằng một câu hỏi từ case, ví dụ: "LDL-C 238 mg/dL ở nữ 46 tuổi có đáng lo không?"
+- Sau đó mới đưa guideline để trả lời câu hỏi.
+- Dùng dữ liệu bệnh nhân lặp lại ở góc slide để người nghe không quên case.
+- Dùng màu thống nhất cho nguy cơ: thấp xanh, trung bình teal, cao cam, rất cao đỏ.
+- Các slide guideline nên chuyển thành bảng quyết định, không chép dài khuyến cáo.
+- Phần thuốc nên dùng "bậc thang điều trị" thay vì liệt kê rời rạc.
+- Theo dõi nên dùng các kịch bản: đạt mục tiêu, giảm nhưng chưa đạt, không dung nạp, không tuân thủ.
 
-- Viết tiêu đề từng slide.
-- Mỗi slide chỉ giữ 1 thông điệp chính.
-- Gắn nguồn cho các slide guideline/khuyến cáo.
-- Đánh dấu 5 slide case riêng.
+Mẫu cấu trúc cho mỗi cụm slide:
 
-### Giai đoạn 3 - Thiết kế flowchart và bảng quyết định
+1. **Case question**: bệnh nhân đặt ra vấn đề gì?
+2. **Clinical reasoning**: bác sĩ cần nghĩ gì?
+3. **Guideline anchor**: ESC/EAS nói gì?
+4. **Decision**: làm gì cho bệnh nhân này?
 
-Thời lượng đề xuất: 0.5 ngày.
+## 10. Take-home messages mới
 
-- Chuyển flowchart Mermaid thành hình ảnh hoặc sơ đồ trong PowerPoint.
-- Làm bảng mục tiêu LDL-C theo nguy cơ.
-- Làm bảng "khi nào thêm thuốc".
+1. Với rối loạn lipid máu, hãy bắt đầu từ bệnh nhân cụ thể: bệnh sử, gia đình, xét nghiệm, nguy cơ và mục tiêu điều trị.
+2. LDL-C rất cao, tiền sử gia đình ASCVD sớm và dấu hiệu gợi ý FH là các "red flags" cần điều trị sớm, không chờ lối sống đơn thuần.
+3. SCORE2/SCORE2-OP hữu ích, nhưng không thay thế đánh giá lâm sàng ở bệnh nhân có ASCVD, DM, CKD, LDL-C rất cao hoặc nghi FH.
+4. Điều trị phải theo mục tiêu LDL-C: statin tối đa dung nạp, thêm ezetimibe, sau đó cân nhắc bempedoic acid/PCSK9-based therapy khi chưa đạt.
+5. Theo dõi điều trị không chỉ xem xét LDL-C, mà còn phải kiểm tra tuân thủ, tác dụng phụ, nguyên nhân thứ phát và nguy cơ gia đình.
 
-### Giai đoạn 4 - Soạn slide bản nháp
+## 11. Kế hoạch thực hiện tiếp theo
 
-Thời lượng đề xuất: 1 ngày.
+### Bước 1 - Cập nhật prompt Gamma
 
-- Tạo slide theo cấu trúc 38-42 trang.
-- Dùng màu nhất quán: nhóm nguy cơ thấp/trung bình/cao/rất cao.
-- Giữ định dạng lâm sàng, ưu tiên thuật toán, bảng và case thay vì quá nhiều chữ.
+- Đổi deck sang hướng case-first.
+- Mở đầu bằng bệnh nhân nữ 46 tuổi.
+- Giữ yêu cầu 30-50 slide, 5 slide case riêng, flowchart và take-home messages.
+- Nếu cần, vẫn giữ 1-2 slide cuối làm component/assets library.
 
-### Giai đoạn 5 - Kiểm tra chuyên môn và diễn tập
+### Bước 2 - Soạn slide nháp
 
-Thời lượng đề xuất: 0.5-1 ngày.
+- Dùng cấu trúc 40-44 slide ở trên.
+- Tạo repeated patient panel trên các slide chính.
+- Dùng flowchart mới thay flowchart cũ.
 
-- Kiểm tra lại đơn vị mg/dL và mmol/L nếu có.
-- Kiểm tra các ngưỡng LDL-C, Lp(a), triglyceride.
-- Kiểm tra slide case có logic từ dữ liệu -> nguy cơ -> mục tiêu -> điều trị -> theo dõi.
-- Rút gọn nếu vượt 50 slide.
-- Chuẩn bị lời dẫn 8-12 phút hoặc theo thời lượng lớp yêu cầu.
+### Bước 3 - Kiểm tra chuyên môn
 
-## 9. Phân công công việc gợi ý cho team
+- Kiểm tra mục tiêu LDL-C theo nhóm nguy cơ.
+- Kiểm tra cách trình bày FH: không khẳng định chẩn đoán nếu chưa đủ tiêu chí, dùng "nghi FH" hoặc "probable FH".
+- Kiểm tra vị trí bempedoic acid, PCSK9 inhibitor, inclisiran theo đúng mức độ cập nhật 2025 và khả dụng.
 
-| Vai trò | Nhiệm vụ |
-|---|---|
-| Người 1 | Nghiên cứu guideline, mục tiêu LDL-C, SCORE2/SCORE2-OP |
-| Người 2 | Soạn phần khám ban đầu, xét nghiệm, nguyên nhân thứ phát |
-| Người 3 | Soạn phần điều trị thuốc và theo dõi |
-| Người 4 | Xây dựng case lâm sàng 5 slide |
-| Người 5 | Thiết kế flowchart, chỉnh slide, thống nhất hình ảnh |
+### Bước 4 - Diễn tập
 
-Nếu team ít người, có thể gộp vai trò 4 và 5.
+- Người trình bày nên kể theo mạch: "Bệnh nhân này đến khám, chúng ta sẽ làm gì tiếp?"
+- Mỗi slide nên trả lời một quyết định cụ thể.
+- Thời lượng đề xuất: 10-12 phút cho deck rút gọn, hoặc 15 phút nếu trình bày đầy đủ.
 
-## 10. Take-home messages dự kiến
-
-1. Rối loạn lipid máu cần được xử trí theo **nguy cơ tim mạch tổng thể**, không chỉ nhìn một con số LDL-C đơn lẻ.
-2. **LDL-C là mục tiêu điều trị chính**; nhóm nguy cơ càng cao thì mục tiêu LDL-C càng thấp và thường cần giảm >=50% so với ban đầu.
-3. **Lối sống áp dụng cho tất cả bệnh nhân**, nhưng nhóm nguy cơ cao/rất cao thường cần thuốc sớm.
-4. Điều trị nên theo bậc thang: statin tối đa dung nạp -> thêm ezetimibe -> cân nhắc bempedoic acid/PCSK9 inhibitor hoặc liệu pháp phù hợp nếu chưa đạt mục tiêu.
-5. Theo dõi sau điều trị phải đánh giá đồng thời: đạt mục tiêu LDL-C, tuân thủ, an toàn thuốc và nhu cầu tăng cường điều trị.
-
-## 11. Nguồn tham khảo chính
+## 12. Nguồn tham khảo chính
 
 1. European Society of Cardiology. **2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias**. https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/dyslipidaemias/
 2. Mach F, et al. **2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias**. *European Heart Journal*. https://academic.oup.com/eurheartj/article/46/42/4359/8234482
