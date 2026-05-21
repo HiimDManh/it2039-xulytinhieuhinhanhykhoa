@@ -300,3 +300,82 @@ Do mức LDL-C ban đầu rất cao và nguy cơ cao, việc điều trị bằn
 - **Sàng lọc gia đình**: Tư vấn tầm soát lipid máu cho người thân trực hệ vì tính chất di truyền của FH
 
 **Kết quả kỳ vọng**: Với phác đồ phối hợp 3 thuốc (Statin + Ezetimibe + PCSK9i), mức LDL-C có thể giảm tới 85%, giúp đưa chỉ số từ 238 mg/dL xuống vùng an toàn dưới 70 mg/dL (thực tế có thể đạt ~33-41 mg/dL)
+
+---
+
+## Phân công slide cụ thể cho Hoàng Nam
+
+Phần này được cập nhật theo `docs/phan_cong_task_nhom_2_nguoi.md` và outline 50 slide trong `docs/slide_content_outline_de6.md`.
+
+Hoàng Nam phụ trách chính các slide cần bám guideline sâu, mục tiêu LDL-C, thuốc, theo dõi điều trị và flowchart. HiimDM hỗ trợ thêm các slide giải thích khái niệm và áp dụng vào case để giảm tải phần slide cho Hoàng Nam.
+
+### Nhóm A - Guideline, nguy cơ và mục tiêu LDL-C
+
+| Slide | Tiêu đề | Việc cần làm |
+|---|---|---|
+| 17 | SCORE2/SCORE2-OP dùng khi nào? | Nêu đúng đối tượng dùng SCORE2/SCORE2-OP |
+| 19 | Khi nào SCORE2 không đủ? | Nhấn mạnh LDL-C rất cao/nghi FH không chỉ dựa vào SCORE2 |
+| 20 | Case này thuộc nhóm nguy cơ nào? | Kết luận thận trọng: ít nhất nguy cơ cao, cân nhắc rất cao nếu có tiêu chí bổ sung |
+| 22 | Mục tiêu LDL-C theo nguy cơ | Tạo bảng mục tiêu LDL-C: thấp, trung bình, cao, rất cao |
+| 23 | Áp mục tiêu vào bệnh nhân | Tính mục tiêu cho LDL-C 238 mg/dL: <70 mg/dL và giảm >=50% |
+| 25 | Khoảng cách điều trị | Minh họa cần giảm từ 238 xuống <70 mg/dL |
+| 26 | Kết luận sau đánh giá nguy cơ | Chốt assessment trước điều trị |
+
+### Nhóm B - Khi nào cần thuốc và chọn thuốc
+
+| Slide | Tiêu đề | Việc cần làm |
+|---|---|---|
+| 29 | Khi nào cần thuốc trong case này? | Áp vào case: LDL-C 238, nghi FH, Lp(a) tăng -> cần thuốc sớm |
+| 30 | Vì sao không chờ lối sống đơn thuần? | Giải thích bằng khoảng cách LDL-C và nguy cơ suốt đời |
+| 31 | Concept explainer: các nhóm thuốc hạ LDL-C | Làm treatment ladder: statin -> ezetimibe -> bempedoic acid/PCSK9/inclisiran |
+| 32 | Statin: nền tảng điều trị | Nêu vai trò statin cường độ cao/tối đa dung nạp |
+| 34 | Ezetimibe: bước tăng cường đầu tiên | Giải thích khi thêm ezetimibe |
+| 35 | Bempedoic acid: điểm cập nhật 2025 | Nêu vai trò, mức giảm LDL-C, khi cân nhắc |
+| 36 | PCSK9 inhibitor và inclisiran | So sánh ngắn PCSK9 mAbs và inclisiran |
+| 37 | Quyết định điều trị ban đầu cho case | Review nội dung chuyên môn; HiimDM có thể dựng slide theo mạch case |
+
+Ghi chú: các slide 16, 18, 21, 24, 28 và 33 chuyển sang HiimDM phụ trách chính. Hoàng Nam chỉ review nhanh để đảm bảo không sai guideline.
+
+### Nhóm C - Theo dõi điều trị và tăng cường
+
+| Slide | Tiêu đề | Việc cần làm |
+|---|---|---|
+| 39 | Theo dõi sau khởi trị | Nêu mốc kiểm tra lipid sau 4-12 tuần |
+| 40 | Kịch bản sau 8 tuần | LDL-C 238 -> 118 mg/dL, giảm nhiều nhưng chưa đạt |
+| 41 | Giảm nhiều nhưng chưa đạt: xử trí thế nào? | Giải thích phải đạt cả % giảm và target tuyệt đối |
+| 42 | Checklist trước khi tăng thuốc | Tuân thủ, tác dụng phụ, tương tác, nguyên nhân thứ phát |
+| 43 | Quyết định thêm ezetimibe | Nêu lý do thêm ezetimibe và hẹn kiểm tra lại |
+| 44 | Kịch bản sau phối hợp | LDL-C còn 82 mg/dL, vẫn chưa đạt <70 |
+| 45 | Bước tăng cường tiếp theo | Cân nhắc PCSK9/bempedoic acid/inclisiran, chuyển chuyên khoa nếu cần |
+| 46 | Theo dõi dài hạn và gia đình | Review chuyên môn; HiimDM có thể dựng slide theo hướng hành trình dài hạn |
+| 47 | Flowchart từ khám -> điều trị -> theo dõi | Tạo flowchart tổng kết ngắn, dễ đưa vào slide |
+
+### Nhóm D - Tài liệu, thiết kế và kiểm tra cuối
+
+| Slide | Tiêu đề | Việc cần làm |
+|---|---|---|
+| 49 | Tài liệu tham khảo | Chọn 4-5 nguồn chính, ưu tiên ESC/EAS và EHJ |
+
+### Các slide Hoàng Nam chỉ review, HiimDM phụ trách dựng chính
+
+| Slide | Tiêu đề | Hoàng Nam cần review |
+|---|---|---|
+| 16 | ASCVD là gì? | Đúng định nghĩa và ví dụ ASCVD |
+| 18 | SCORE2/SCORE2-OP là gì? | Không diễn giải quá mức công cụ nguy cơ |
+| 21 | Vì sao LDL-C là mục tiêu chính? | Đúng vai trò LDL-C trong xơ vữa |
+| 24 | Khi nào LDL-C đáng lo? | Đúng logic LDL-C rất cao/nghi FH |
+| 28 | Khi nào cần thuốc? | Không nói quá rộng ngoài guideline |
+| 33 | Giải thích cho bệnh nhân | Không gây sợ quá mức, bám mục tiêu giảm nguy cơ |
+| 37 | Quyết định điều trị ban đầu | Plan không sai guideline |
+| 46 | Theo dõi dài hạn và gia đình | Sàng lọc gia đình diễn đạt thận trọng |
+| 48 | Take-home messages | Thông điệp đúng chuyên môn |
+| 50 | Assets/components library | Thống nhất màu, badges, drug cards |
+
+### Checklist riêng cho Hoàng Nam
+
+- [ ] Không khẳng định bệnh nhân chắc chắn FH; dùng "nghi FH" hoặc "probable FH".
+- [ ] Mục tiêu LDL-C cho case: <70 mg/dL và giảm >=50%; nói thêm <55 mg/dL nếu rất cao.
+- [ ] Không biến slide thuốc thành quá nhiều chữ; ưu tiên bảng/ladder/card.
+- [ ] Với bempedoic acid, dùng từ "cân nhắc" trong bối cảnh phù hợp, trừ trường hợp không dung nạp statin theo khuyến cáo.
+- [ ] Với PCSK9/inclisiran, nêu phụ thuộc nguy cơ, khả dụng, chi phí và dung nạp.
+- [ ] Flowchart slide 47 phải ít chữ hơn nội dung chi tiết, dùng làm slide tổng kết.

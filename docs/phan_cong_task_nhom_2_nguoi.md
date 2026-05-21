@@ -22,8 +22,8 @@ Case chính: **nữ 46 tuổi, LDL-C 238 mg/dL, tiền sử gia đình nhồi m�
 
 ## 2. Nguyên tắc chia việc
 
-- **HiimDM** phụ trách mạch case, hành trình bệnh nhân, phần tiếp cận ban đầu và các vấn đề nghiệp vụ.
-- **Hoàng Nam** phụ trách guideline ESC/EAS, phân tầng nguy cơ, thuốc, theo dõi, flowchart và prompt thiết kế.
+- **HiimDM** phụ trách mạch case, hành trình bệnh nhân, phần tiếp cận ban đầu, các slide giải thích khái niệm và một số slide áp dụng vào case.
+- **Hoàng Nam** phụ trách guideline ESC/EAS chuyên sâu, mục tiêu LDL-C, thuốc, theo dõi, flowchart và prompt thiết kế.
 - Hai người review chéo để đảm bảo bài vừa dễ nghe vừa bám guideline.
 
 ## 3. Phân công tổng quan
@@ -37,10 +37,12 @@ Case chính: **nữ 46 tuổi, LDL-C 238 mg/dL, tiền sử gia đình nhồi m�
 | Xét nghiệm và nguyên nhân thứ phát | HiimDM | Hoàng Nam | Nội dung slide 9-12 |
 | Vấn đề nghiệp vụ | HiimDM | Hoàng Nam | Bảng decision points |
 | Kiểm chứng ESC/EAS 2019 + 2025 | Hoàng Nam | HiimDM | Bảng nguồn và điểm guideline |
-| Phân tầng nguy cơ, SCORE2/SCORE2-OP | Hoàng Nam | HiimDM | Nội dung slide 13-16 |
-| Mục tiêu LDL-C | Hoàng Nam | HiimDM | Bảng mục tiêu và áp vào case |
+| Slide giải thích khái niệm ASCVD/SCORE2/LDL-C | HiimDM | Hoàng Nam | Slide giải thích dễ hiểu, có áp vào case |
+| Phân tầng nguy cơ, SCORE2/SCORE2-OP | Hoàng Nam | HiimDM | Nội dung guideline và kết luận nguy cơ |
+| Mục tiêu LDL-C | Hoàng Nam | HiimDM | Bảng mục tiêu; HiimDM hỗ trợ slide áp dụng vào case |
 | Điều trị thuốc | Hoàng Nam | HiimDM | Nội dung statin, ezetimibe, bempedoic acid, PCSK9/inclisiran |
-| Theo dõi và tăng cường điều trị | Hoàng Nam | HiimDM | Kịch bản LDL-C sau điều trị |
+| Khi nào cần thuốc trong case | HiimDM | Hoàng Nam | Slide decision card dễ hiểu |
+| Theo dõi và tăng cường điều trị | Hoàng Nam | HiimDM | Kịch bản LDL-C sau điều trị; HiimDM hỗ trợ slide dài hạn/gia đình |
 | Flowchart tổng kết | Hoàng Nam | HiimDM | Flowchart khám -> điều trị -> theo dõi |
 | Take-home messages | HiimDM | Hoàng Nam | 3-5 thông điệp cuối |
 | Prompt Gamma / thiết kế slide | Hoàng Nam | HiimDM | Prompt/deck nháp thống nhất style |
@@ -82,6 +84,21 @@ Cần làm:
 
 - Nội dung slide 5-12 dạng bullet ngắn.
 - Mỗi slide có 1 thông điệp chính.
+
+### Task H2b - Hỗ trợ slide giải thích và áp dụng vào case
+
+Mục tiêu: giảm tải phần dựng slide cho Hoàng Nam và làm bài dễ nghe hơn.
+
+Cần làm:
+
+- Phụ trách các slide giải thích khái niệm: ASCVD, SCORE2/SCORE2-OP, vì sao LDL-C là mục tiêu chính, khi nào LDL-C đáng lo.
+- Phụ trách slide "khi nào cần thuốc" ở dạng dễ hiểu.
+- Phụ trách slide quyết định điều trị ban đầu và theo dõi dài hạn/gia đình ở dạng case journey.
+
+Đầu ra:
+
+- Các slide giải thích ngắn, có dòng "Áp vào case".
+- Gửi Hoàng Nam review chuyên môn trước khi chốt.
 
 ### Task H3 - Viết vấn đề nghiệp vụ trong case
 
@@ -216,8 +233,8 @@ Cần làm:
 | Thời điểm | Việc cần xong | Người phụ trách |
 |---|---|---|
 | Ngày 1 - sáng | Chốt case, hành trình bệnh nhân, nguồn guideline | HiimDM + Hoàng Nam |
-| Ngày 1 - chiều | Viết nội dung slide 1-20 | HiimDM slide 1-12, Hoàng Nam slide 13-20 |
-| Ngày 2 - sáng | Viết nội dung slide 21-37 và case updates | Hoàng Nam slide 21-37, HiimDM case updates |
+| Ngày 1 - chiều | Viết nội dung mở đầu và nguy cơ | HiimDM slide 1-16, 18, 21, 24; Hoàng Nam slide 17, 19-20, 22-23, 25-26 |
+| Ngày 2 - sáng | Viết nội dung thuốc, theo dõi và case updates | HiimDM slide 27-28, 33, 37, 46, 48, 50; Hoàng Nam slide 29-32, 34-36, 38-45, 47, 49 |
 | Ngày 2 - chiều | Tạo prompt Gamma/deck nháp, flowchart, bảng thuốc | Hoàng Nam chính, HiimDM review |
 | Ngày 3 - sáng | Review chuyên môn, rút gọn chữ, thống nhất style | Cả hai |
 | Ngày 3 - chiều | Diễn tập, chỉnh lời dẫn, hoàn thiện bản cuối | Cả hai |

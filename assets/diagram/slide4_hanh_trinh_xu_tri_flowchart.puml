@@ -1,0 +1,44 @@
+@startuml
+title Slide 4 - Hanh trinh tiep can benh nhan
+
+skinparam backgroundColor transparent
+skinparam shadowing false
+skinparam roundcorner 18
+skinparam ArrowColor #12324A
+skinparam ArrowThickness 2
+skinparam defaultFontName Arial
+skinparam defaultFontSize 16
+skinparam activity {
+  BackgroundColor #FFFFFF
+  BorderColor #CBD5E1
+  FontColor #12324A
+  DiamondBackgroundColor #FFF7ED
+  DiamondBorderColor #D97706
+  DiamondFontColor #12324A
+}
+
+start
+
+:1. Kham ban dau;
+:2. Xet nghiem lipid;
+:3. Loai tru nguyen nhan thu phat;
+
+if (Nguy co cao?) then (Co)
+  :4. Dat muc tieu LDL-C;
+  :5. Loi song + dung thuoc;
+else (Chua ro)
+  :Tinh SCORE2 / SCORE2-OP;
+  :Dat muc tieu theo nguy co;
+endif
+
+:6. Theo doi 4-12 tuan;
+
+if (Dat muc tieu?) then (Co)
+  :Duy tri dieu tri;
+else (Chua)
+  :Tang cuong dieu tri;
+endif
+
+stop
+
+@enduml

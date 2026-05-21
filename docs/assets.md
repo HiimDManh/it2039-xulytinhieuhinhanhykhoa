@@ -17,6 +17,8 @@ File này dùng để lưu các tài nguyên quan trọng của dự án: link t
 | `docs/phan_cong_task_nhom_2_nguoi.md` | Phân công công việc cho HiimDM và Hoàng Nam |
 | `docs/slide_content_outline_de6.md` | Outline chi tiết nội dung từng slide |
 | `docs/slide4_hanh_trinh_xu_tri_flowchart.puml` | PlantUML flowchart cho slide 4 |
+| `docs/Task_HoangNam.md` | Task chi tiết và slide Hoàng Nam phụ trách |
+| `docs/Task_HiimDM.md` | Task chi tiết và slide HiimDM phụ trách |
 
 ## 3. Repository Links
 
