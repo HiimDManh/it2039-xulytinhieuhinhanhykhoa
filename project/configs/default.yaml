@@ -1,0 +1,41 @@
+# Default config — Multimodal Fusion Carotid Atherosclerosis
+# Tham chiếu: docs/FinalTerm/pipeline_tong_the.md & docs/multimodal_fusion_architecture.md
+
+seed: 42
+device: cuda                 # auto fallback CPU nếu không có
+
+data:
+  csv_path: data/carotid_clinical_dataset_300cases.csv
+  images_dir: data/CAROTID_IMAGES
+  image_size: 224
+  split:
+    mode: holdout            # holdout (70/15/15) | kfold (5 folds)
+    test_size: 0.15
+    val_size: 0.15
+    n_splits: 5
+
+model:
+  image_embed_dim: 128
+  clinical_embed_dim: 64
+  n_echo_classes: 4          # None / Low / Intermediate / High
+  pretrained: true
+
+train:
+  batch_size: 16
+  epochs: 50
+  weight_decay: 1.0e-4
+  warmup_epochs: 5
+  early_stopping_patience: 10
+  gradient_clip: 1.0
+  lambda_detection: 1.0
+  lambda_echogenicity: 0.5
+  lambda_reclassify: 0.3
+  lr_backbone: 1.0e-5
+  lr_new_layers: 1.0e-4
+  stage1_epochs: 5
+  stage2_epochs: 15
+  stage3_epochs: 10
+
+paths:
+  checkpoints_dir: results/checkpoints
+  figures_dir: results/figures

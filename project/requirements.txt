@@ -1,0 +1,20 @@
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+Pillow>=10.3
+PyYAML>=6.0
+
+# PyTorch — chọn phiên bản match CUDA local (Windows + GPU).
+# Cài tay theo hướng dẫn https://pytorch.org/get-started/locally/ ví dụ:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2
+torchvision>=0.17
+
+# Jupyter cho notebooks 01_eda / 02_baseline / 03_fusion
+jupyter>=1.0
+ipykernel>=6.29
+
+# Optional — XGBoost làm baseline tabular Phase 3 (Vu et al. 2025)
+xgboost>=2.0
