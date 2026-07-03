@@ -196,7 +196,7 @@ Khám -> hỏi bệnh -> xét nghiệm -> loại trừ nguyên nhân thứ phát
 
 ### Slide 9 - Concept explainer: FH là gì?
 
-**Mục tiêu:** giải thích vì sao LDL-C rất cao + gia đình có NMCT sớm cần nghĩ đến bệnh lý di truyền.
+**Mục tiêu:** giải thích vì sao LDL-C rất cao + gia ưwwđình có NMCT sớm cần nghĩ đến bệnh lý di truyền.
 
 **Thông điệp:** FH là rối loạn di truyền làm LDL-C cao kéo dài từ sớm, khiến phơi nhiễm LDL-C suốt đời tăng lên.
 
@@ -885,14 +885,14 @@ Cân nhắc:
 
 ## 4. Checklist hoàn thiện slide
 
-- [ ] Chỉ dùng 1 case chính xuyên suốt.
-- [ ] Case xuất hiện từ slide 2.
-- [ ] Có phần các bước tiếp cận.
-- [ ] Có phần khi nào cần thuốc.
-- [ ] Có phần theo dõi điều trị.
+- [x] Chỉ dùng 1 case chính xuyên suốt.
+- [x] Case xuất hiện từ slide 2.
+- [x] Có phần các bước tiếp cận.
+- [x] Có phần khi nào cần thuốc.
+- [x] Có phần theo dõi điều trị.
 - [ ] Có flowchart khám -> điều trị -> theo dõi.
-- [ ] Có mục tiêu LDL-C theo nguy cơ.
-- [ ] Có kịch bản theo dõi LDL-C giảm nhưng chưa đạt mục tiêu.
-- [ ] Không khẳng định FH chắc chắn; dùng "nghi FH" hoặc "probable FH".
-- [ ] Mỗi slide chỉ có 1 thông điệp chính.
-- [ ] Có tài liệu tham khảo cuối bài.
+- [x] Có mục tiêu LDL-C theo nguy cơ.
+- [x] Có kịch bản theo dõi LDL-C giảm nhưng chưa đạt mục tiêu.
+- [x] Không khẳng định FH chắc chắn; dùng "nghi FH" hoặc "probable FH".
+- [x] Mỗi slide chỉ có 1 thông điệp chính.
+- [x] Có tài liệu tham khảo cuối bài.

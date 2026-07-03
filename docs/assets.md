@@ -19,6 +19,7 @@ File này dùng để lưu các tài nguyên quan trọng của dự án: link t
 | `docs/slide4_hanh_trinh_xu_tri_flowchart.puml` | PlantUML flowchart cho slide 4 |
 | `docs/Task_HoangNam.md` | Task chi tiết và slide Hoàng Nam phụ trách |
 | `docs/Task_HiimDM.md` | Task chi tiết và slide HiimDM phụ trách |
+| `docs/gamma_prompt_slides_09_19.md` | Prompt Gamma cho các slide HiimDM hỗ trợ: 21, 24, 27, 28, 33, 37, 46, 48, 50 |
 
 ## 3. Repository Links
 

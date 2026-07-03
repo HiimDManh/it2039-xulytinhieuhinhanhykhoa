@@ -157,28 +157,28 @@ Nếu cần rút gọn, gộp slide 39-40 vào cuối deck.
 
 ```mermaid
 flowchart TD
-    A[Benh nhan nu 46 tuoi, LDL-C 238 mg/dL] --> B[Hoi benh: ASCVD, yeu to nguy co, tien su gia dinh, thuoc, loi song]
-    B --> C[Kham: HA, BMI, xanthelasma, gan Achilles, dau hieu mach ngoai bien]
-    C --> D[Xet nghiem: lipid profile, HbA1c, eGFR, ALT/AST, TSH, urine protein, Lp(a)]
-    D --> E{Co nguyen nhan thu phat?}
-    E -->|Co| F[Dieu tri nguyen nhan thu phat va danh gia lai lipid]
-    E -->|Khong ro| G{LDL-C rat cao / nghi FH / tien su gia dinh ASCVD som?}
-    G -->|Co| H[Khong chi dua vao SCORE2; xep nguy co cao hoac rat cao]
-    G -->|Khong| I[Tinh SCORE2 hoac SCORE2-OP neu phu hop]
-    H --> J[Dat muc tieu LDL-C theo nguy co]
+    A["Benh nhan nu 46 tuoi<br/>LDL-C 238 mg/dL"] --> B["Hoi benh<br/>ASCVD, yeu to nguy co, gia dinh, thuoc, loi song"]
+    B --> C["Kham lam sang<br/>HA, BMI, dau hieu FH, dau hieu mach ngoai bien"]
+    C --> D["Xet nghiem<br/>Lipid profile, HbA1c, eGFR, men gan, TSH, urine protein, Lpa"]
+    D --> E{"Co nguyen nhan thu phat?"}
+    E -->|Co| F["Dieu tri nguyen nhan thu phat<br/>va danh gia lai lipid"]
+    E -->|Khong ro| G{"LDL-C rat cao<br/>nghi FH hoac tien su ASCVD som?"}
+    G -->|Co| H["Xep nguy co cao hoac rat cao<br/>khong chi dua vao SCORE2"]
+    G -->|Khong| I["Tinh SCORE2 hoac SCORE2-OP<br/>neu phu hop"]
+    H --> J["Dat muc tieu LDL-C<br/>theo nhom nguy co"]
     I --> J
-    J --> K[Loi song cho tat ca benh nhan]
-    K --> L{Can thuoc ngay?}
-    L -->|LDL-C rat cao / FH / nguy co cao| M[Khoi tri statin cuong do cao hoac toi da dung nap]
-    L -->|Nguy co thap-trung binh va gan muc tieu| N[Loi song va tai danh gia]
-    M --> O[Kiem tra LDL-C sau 4-12 tuan]
+    J --> K["Tu van loi song<br/>cho tat ca benh nhan"]
+    K --> L{"Can thuoc ngay?"}
+    L -->|Co| M["Khoi tri statin<br/>cuong do cao hoac toi da dung nap"]
+    L -->|Chua| N["Loi song<br/>va tai danh gia"]
+    M --> O["Kiem tra LDL-C<br/>sau 4-12 tuan"]
     N --> O
-    O --> P{Dat muc tieu LDL-C?}
-    P -->|Co| Q[Duy tri, theo doi dinh ky, sang loc gia dinh neu nghi FH]
-    P -->|Khong| R[Kiem tra tuan thu, tac dung phu, tuong tac, nguyen nhan thu phat]
-    R --> S[Them ezetimibe]
-    S --> T{Van chua dat muc tieu?}
-    T -->|Co| U[Can nhac PCSK9 inhibitor / bempedoic acid / inclisiran; chuyen chuyen khoa neu can]
+    O --> P{"Dat muc tieu LDL-C?"}
+    P -->|Co| Q["Duy tri dieu tri<br/>theo doi dinh ky"]
+    P -->|Khong| R["Kiem tra tuan thu, tac dung phu<br/>tuong tac va nguyen nhan thu phat"]
+    R --> S["Them ezetimibe"]
+    S --> T{"Van chua dat muc tieu?"}
+    T -->|Co| U["Can nhac PCSK9 inhibitor<br/>bempedoic acid hoac inclisiran"]
     T -->|Khong| Q
     U --> Q
 ```
