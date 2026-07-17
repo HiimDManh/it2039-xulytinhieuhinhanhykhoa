@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050">
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1050" viewBox="0 0 1800 1050">
   <defs>
     <pattern id="grid" width="150" height="150" patternUnits="userSpaceOnUse">
       <path d="M 150 0 L 0 0 0 150" fill="none" stroke="#cbd5e1" stroke-width="1.1"/>
@@ -30,9 +30,9 @@
     </style>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1800" height="1050"/>
-  <rect class="grid" x="0" y="0" width="1800" height="1050"/>
-  <rect class="frame" x="40" y="40" width="1720" height="970"/>
+  <rect class="bg" x="0" y="0" width="2000" height="1050"/>
+  <rect class="grid" x="0" y="0" width="2000" height="1050"/>
+  <rect class="frame" x="40" y="40" width="1920" height="970"/>
 
   <text class="title" x="90" y="118">Kiến trúc mô hình Multimodal Fusion: ResNet-50 + MLP</text>
   <text class="subtitle" x="94" y="154">Phân tầng nguy cơ xơ vữa động mạch cảnh bằng ảnh siêu âm và dữ liệu lâm sàng ESC/EAS 2025</text>
@@ -93,7 +93,8 @@
   <text class="label" x="870" y="797">Clinical embedding [B, 64]</text>
 
   <!-- Fusion -->
-  <text class="tiny" x="1215" y="385">Projection giúp cân bằng nhánh ảnh và nhánh lâm sàng</text>
+  <text class="tiny" x="1215" y="375">Projection giúp cân bằng nhánh ảnh</text>
+  <text class="tiny" x="1215" y="395">và nhánh lâm sàng</text>
 
   <rect class="box fusion" x="1215" y="410" width="285" height="210"/>
   <text class="section" x="1275" y="455">Fusion Layer</text>
@@ -104,20 +105,20 @@
   <text class="tiny" x="1260" y="606">RQ4: Cross-Attention</text>
 
   <!-- Output Heads -->
-  <rect class="box head" x="1548" y="222" width="195" height="138"/>
+  <rect class="box head" x="1548" y="222" width="205" height="148"/>
   <text class="section" x="1588" y="267">Head 1</text>
   <text class="text" x="1588" y="302">Plaque Detection</text>
   <text class="small" x="1588" y="331">FC 64 → 2</text>
   <text class="tiny" x="1588" y="354">Softmax: no / yes</text>
 
-  <rect class="box head" x="1548" y="425" width="195" height="150"/>
+  <rect class="box head" x="1548" y="425" width="205" height="170"/>
   <text class="section" x="1588" y="470">Head 2</text>
   <text class="text" x="1588" y="505">Echogenicity</text>
   <text class="small" x="1588" y="534">FC 64 → 4</text>
   <text class="tiny" x="1588" y="557">None / Low /</text>
   <text class="tiny" x="1588" y="576">Inter / High</text>
 
-  <rect class="box head" x="1548" y="640" width="195" height="142"/>
+  <rect class="box head" x="1548" y="640" width="205" height="152"/>
   <text class="section" x="1588" y="685">Head 3</text>
   <text class="text" x="1588" y="720">Reclassification</text>
   <text class="small" x="1588" y="749">ESC/EAS 2025</text>
@@ -148,6 +149,6 @@
   <path class="arrow" d="M 1500 515 L 1548 500"/>
   <path class="arrow" d="M 1500 515 C 1525 515 1525 710 1548 710"/>
 
-  <path class="dashed" d="M 240 750 C 240 835 390 915 465 915"/>
+  <path class="dashed" d="M 340 765 C 440 835 390 915 465 915"/>
   <path class="dashed" d="M 1358 620 C 1358 760 1358 825 1358 875"/>
 </svg>
