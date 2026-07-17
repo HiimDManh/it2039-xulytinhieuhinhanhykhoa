@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050">
+  <defs>
+    <pattern id="grid" width="150" height="150" patternUnits="userSpaceOnUse">
+      <path d="M 150 0 L 0 0 0 150" fill="none" stroke="#cbd5e1" stroke-width="1.1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .bg { fill: #eef3f7; }
+      .grid { fill: url(#grid); opacity: 0.9; }
+      .frame { fill: none; stroke: #334155; stroke-width: 3; }
+      .title { font: 700 48px Arial, Helvetica, sans-serif; fill: #111827; }
+      .subtitle { font: 500 17px Arial, Helvetica, sans-serif; fill: #334155; }
+      .section { font: 700 25px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .text { font: 500 19px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .small { font: 500 16px Arial, Helvetica, sans-serif; fill: #334155; }
+      .tiny { font: 500 14px Arial, Helvetica, sans-serif; fill: #475569; }
+      .label { font: 700 17px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .box { stroke: #334155; stroke-width: 2.5; rx: 10; ry: 10; }
+      .input { fill: #ffffff; }
+      .aux { fill: #f8fafc; }
+      .image { fill: #dbeafe; }
+      .clinical { fill: #dcfce7; }
+      .fusion { fill: #fb923c; }
+      .head { fill: #f3e8ff; }
+      .eval { fill: #fef3c7; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2.6; marker-end: url(#arrow); }
+      .dashed { fill: none; stroke: #64748b; stroke-width: 2.2; stroke-dasharray: 8 7; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1800" height="1050"/>
+  <rect class="grid" x="0" y="0" width="1800" height="1050"/>
+  <rect class="frame" x="40" y="40" width="1720" height="970"/>
+
+  <text class="title" x="90" y="118">Kiến trúc mô hình Multimodal Fusion: ResNet-50 + MLP</text>
+  <text class="subtitle" x="94" y="154">Phân tầng nguy cơ xơ vữa động mạch cảnh bằng ảnh siêu âm và dữ liệu lâm sàng ESC/EAS 2025</text>
+
+  <!-- Inputs -->
+  <rect class="box input" x="90" y="230" width="300" height="120"/>
+  <text class="section" x="125" y="278">Ảnh siêu âm</text>
+  <text class="small" x="125" y="310">IMT + CCA cross-section</text>
+  <text class="tiny" x="125" y="335">Control: 1 ảnh | Case: 5 ảnh</text>
+
+  <text class="tiny" x="94" y="386">Data: 300 bệnh nhân</text>
+  <text class="tiny" x="94" y="406">205 control / 95 case</text>
+
+  <rect class="box input" x="90" y="625" width="300" height="140"/>
+  <text class="section" x="125" y="672">Dữ liệu lâm sàng</text>
+  <text class="small" x="125" y="705">9 tabular features</text>
+  <text class="tiny" x="125" y="730">Age, Sex, Lp(a), ApoB,</text>
+  <text class="tiny" x="125" y="748">LDL-C, IMT, Cholesterol...</text>
+
+  <text class="tiny" x="94" y="785">Không dùng Baseline_Risk_Score</text>
+  <text class="tiny" x="94" y="805">để tránh data leakage</text>
+
+  <!-- Preprocessing -->
+  <rect class="box aux" x="465" y="220" width="285" height="150"/>
+  <text class="section" x="505" y="266">Tiền xử lý ảnh</text>
+  <text class="small" x="505" y="302">Resize 224 x 224</text>
+  <text class="small" x="505" y="328">Augmentation train</text>
+  <text class="small" x="505" y="354">ImageNet normalize</text>
+
+  <rect class="box aux" x="465" y="620" width="285" height="150"/>
+  <text class="section" x="505" y="666">Tiền xử lý bảng</text>
+  <text class="small" x="505" y="702">Sex encode: 0 / 1</text>
+  <text class="small" x="505" y="728">StandardScaler</text>
+  <text class="small" x="505" y="754">Fit trên train fold</text>
+
+  <!-- Branches -->
+  <text class="tiny" x="825" y="175">Fine-tune 3 stage: freeze backbone → unfreeze layer4 → unfreeze all</text>
+
+  <rect class="box image" x="825" y="185" width="350" height="225"/>
+  <text class="section" x="870" y="233">CNN Branch</text>
+  <text class="text" x="870" y="273">ResNet-50 pretrained</text>
+  <text class="small" x="870" y="307">Global Average Pooling</text>
+  <text class="small" x="870" y="333">Visual feature: 2048-dim</text>
+  <text class="small" x="870" y="359">Mean-pool theo patient</text>
+  <text class="label" x="870" y="394">Image embedding [B, 2048]</text>
+
+  <rect class="box image" x="825" y="450" width="350" height="140"/>
+  <text class="section" x="870" y="497">Projection Layer</text>
+  <text class="small" x="870" y="532">Linear 2048 → 128</text>
+  <text class="small" x="870" y="555">BatchNorm + ReLU</text>
+  <text class="label" x="870" y="579">Image embedding [B, 128]</text>
+
+  <rect class="box clinical" x="825" y="625" width="350" height="190"/>
+  <text class="section" x="870" y="670">MLP Branch</text>
+  <text class="small" x="870" y="706">Linear 9 → 64 + BN + ReLU</text>
+  <text class="small" x="870" y="734">Linear 64 → 128 + Dropout</text>
+  <text class="small" x="870" y="762">Linear 128 → 64 + BN + ReLU</text>
+  <text class="label" x="870" y="797">Clinical embedding [B, 64]</text>
+
+  <!-- Fusion -->
+  <text class="tiny" x="1215" y="385">Projection giúp cân bằng nhánh ảnh và nhánh lâm sàng</text>
+
+  <rect class="box fusion" x="1215" y="410" width="285" height="210"/>
+  <text class="section" x="1275" y="455">Fusion Layer</text>
+  <text class="text" x="1260" y="495">Concat baseline</text>
+  <text class="small" x="1260" y="526">[B,128] + [B,64]</text>
+  <text class="small" x="1260" y="553">= [B,192]</text>
+  <text class="small" x="1260" y="580">FC 192 → 128 → 64</text>
+  <text class="tiny" x="1260" y="606">RQ4: Cross-Attention</text>
+
+  <!-- Output Heads -->
+  <rect class="box head" x="1548" y="222" width="195" height="138"/>
+  <text class="section" x="1588" y="267">Head 1</text>
+  <text class="text" x="1588" y="302">Plaque Detection</text>
+  <text class="small" x="1588" y="331">FC 64 → 2</text>
+  <text class="tiny" x="1588" y="354">Softmax: no / yes</text>
+
+  <rect class="box head" x="1548" y="425" width="195" height="150"/>
+  <text class="section" x="1588" y="470">Head 2</text>
+  <text class="text" x="1588" y="505">Echogenicity</text>
+  <text class="small" x="1588" y="534">FC 64 → 4</text>
+  <text class="tiny" x="1588" y="557">None / Low /</text>
+  <text class="tiny" x="1588" y="576">Inter / High</text>
+
+  <rect class="box head" x="1548" y="640" width="195" height="142"/>
+  <text class="section" x="1588" y="685">Head 3</text>
+  <text class="text" x="1588" y="720">Reclassification</text>
+  <text class="small" x="1588" y="749">ESC/EAS 2025</text>
+  <text class="tiny" x="1588" y="772">Sigmoid: cần nâng risk?</text>
+
+  <!-- Training / evaluation strip -->
+  <rect class="box aux" x="90" y="875" width="300" height="120"/>
+  <text class="section" x="125" y="918">Clinical rules</text>
+  <text class="small" x="125" y="948">33 discordant cases</text>
+  <text class="tiny" x="125" y="968">theo ESC/EAS 2025</text>
+
+  <rect class="box eval" x="465" y="875" width="1080" height="100"/>
+  <text class="section" x="505" y="913">Huấn luyện &amp; đánh giá trên Colab</text>
+  <text class="small" x="505" y="941">5-fold CV | Weighted CE/BCE | Multi-task loss</text>
+  <text class="tiny" x="505" y="964">1.0 Plaque + 0.5 Echogenicity + 0.3 Reclassify | Metrics: AUC, F1, Sens@discordant</text>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M 390 290 L 465 290"/>
+  <path class="arrow" d="M 750 295 L 825 295"/>
+  <path class="arrow" d="M 1000 410 L 1000 450"/>
+  <path class="arrow" d="M 1175 510 L 1215 510"/>
+
+  <path class="arrow" d="M 390 690 L 465 690"/>
+  <path class="arrow" d="M 750 695 L 825 695"/>
+  <path class="arrow" d="M 1175 720 C 1205 720 1205 560 1215 560"/>
+
+  <path class="arrow" d="M 1500 515 C 1525 515 1525 292 1548 292"/>
+  <path class="arrow" d="M 1500 515 L 1548 500"/>
+  <path class="arrow" d="M 1500 515 C 1525 515 1525 710 1548 710"/>
+
+  <path class="dashed" d="M 240 750 C 240 835 390 915 465 915"/>
+  <path class="dashed" d="M 1358 620 C 1358 760 1358 825 1358 875"/>
+</svg>
